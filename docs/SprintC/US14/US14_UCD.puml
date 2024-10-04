@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+
+rectangle System {
+  usecase "Load users from a csv file" as UC1
+}
+
+:Administrator: as Admin
+
+Admin -- UC1
+@enduml

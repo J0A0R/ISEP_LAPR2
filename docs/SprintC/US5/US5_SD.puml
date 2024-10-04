@@ -1,0 +1,71 @@
+@startuml
+autonumber
+'hide footbox
+actor "Nurse" as nurse
+
+participant ":WaitingRoomListUI" as ui
+participant ":WaitingRoomListController" as ctrl
+participant ":VaccinationCenterStore" as centerstore
+participant ":VaccinationCenter" as center
+participant ":VaccineAdministrationStore" as vastore
+participant ":VaccineAdministration" as va
+participant ":UserStore" as sustore
+
+
+
+activate nurse
+nurse -> ui : starts asking for waiting room list
+activate ui
+ui -> ctrl : printVaccinationCenterList()
+activate ctrl
+ctrl -> centerstore : printVaccinationCenterList()
+activate centerstore
+activate center
+loop
+centerstore -> center : vaccinationCenterList(center)
+end
+
+loop
+centerstore -> center : printVaccinationCenterList(name)
+end
+deactivate centerstore
+deactivate center
+deactivate ctrl
+
+ui --> nurse: request data (center)
+deactivate ui
+
+nurse -> ui: inserts requested data
+activate ui
+
+ui -> ctrl : printWaitingRoomList(center)
+activate ctrl
+
+ctrl -> vastore : printWaitingRoomList(center)
+activate vastore
+
+loop
+vastore -> va : isInWaitingRoom(waitingRoom)
+activate va
+end
+
+loop
+vastore -> va : printWaitingRoomList(name, sex, birthDate, SNSNumber, phoneNumber)
+end
+
+va -> centerstore : getVaccinationCenterStore(center)
+activate centerstore
+deactivate centerstore
+
+va -> sustore : getUserStore(su)
+activate sustore
+deactivate sustore
+deactivate va
+deactivate vastore
+
+ui --> nurse: shows the data and informs of operation success
+deactivate ui
+deactivate nurse
+deactivate ctrl
+
+@enduml

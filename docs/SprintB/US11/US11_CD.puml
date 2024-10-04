@@ -1,0 +1,52 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class EmployeeListUI
+
+class Company {
+  -designation
+  +getEmployeeListStore()
+}
+
+class EmployeeListStore {
+    +createEmployeeList(listRole)
+    +getEmployeeStore(NewEmployee)
+    +showEmployeeList(NewEmployeeList)
+}
+
+class NewEmployeeList {
+    -listRole
+    NewEmployeeList()
+}
+
+class EmployeeStore {
++createNewNewEmployee(name, adress, phoneNumber, e-mail, citizenCardIDNumber, password, userName,role)
+}
+
+class NewEmployee {
+  -name
+  -address
+  -phoneNumber
+  -e-mail
+  -citizenCardIDNumber
+  -password
+  -userName
+  -role
+  NewEmployee(name, address, phoneNumber, e-mail, citizenCardIDNumber, password, userName, role)
+}
+
+class EmployeeListController{
+   +createEmployeeList(listRole)
+}
+
+EmployeeListUI ...> EmployeeListController
+EmployeeListController ...> Company
+EmployeeListController ..> NewEmployeeList
+Company "1" ----> "1" EmployeeListStore: calls
+EmployeeListStore "1" ..> NewEmployeeList: creates
+EmployeeListStore "1" ----> "1" EmployeeStore: calls
+EmployeeStore "1" ----> "*" NewEmployee: calls
+
+
+@enduml

@@ -1,0 +1,56 @@
+@startuml
+Actor Receptionist as Rcp
+Rcp -> NewUserEntryUI : **1** Initiates the process to register the arrival of a SNS Rcp to take the vacine
+activate NewUserEntryUI
+activate Rcp
+
+NewUserEntryUI --> Rcp: **2** requests data(SNSNumber, timeOfArrival)
+deactivate NewUserEntryUI
+
+
+Rcp -> NewUserEntryUI :**3** types requested data, and time of arrival.
+activate NewUserEntryUI
+
+NewUserEntryUI -> NewUserEntryController: **4** validationOfArrival()
+activate NewUserEntryController
+
+NewUserEntryController -> Company : **5** arrivalOfVaccine = getVaccineArrivalStore()
+
+NewUserEntryController -> "store:VaccineArrivalStore": **6** flag = validateReceptionist()
+deactivate NewUserEntryController
+
+
+NewUserEntryUI --> Rcp: **7** shows the data regarding SNS Rcp and requests a confirmation
+deactivate NewUserEntryUI
+
+Rcp -> NewUserEntryUI :**8** confirms the data
+activate NewUserEntryUI
+
+NewUserEntryUI -> NewUserEntryController: **9** ArrivalRegister()
+
+activate NewUserEntryController
+NewUserEntryController -> Company : **10** arrivalOfVaccine = getVaccineArrivalStore()
+NewUserEntryController -> Company : **11** schedulleVaccine = getVaccineSchedulleStore()
+
+NewUserEntryController -> "store:VaccineSchedulleStore": **12** getSchedulleList= getListSchedulle()
+deactivate NewUserEntryController
+
+activate "store:VaccineSchedulleStore"
+"store:VaccineSchedulleStore" -> "store:VaccineSchedulleStore": **13** validateReceptionist()
+"store:VaccineSchedulleStore" -> "store:VaccineSchedulleStore": **14** validateVacinationHistory()
+"store:VaccineSchedulleStore" -> "store:VaccineArrivalStore": **15** setlist= setArrivalList()
+deactivate "store:VaccineSchedulleStore"
+
+
+NewUserEntryUI --> Rcp: **16** informs operation success
+deactivate NewUserEntryUI
+@enduml
+
+PlantUML version 1.2022.6beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

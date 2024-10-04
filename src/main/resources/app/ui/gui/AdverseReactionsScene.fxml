@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.AdverseReactionsController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </left>
+    <top>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text layoutX="109.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register Adverse Reactions" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Text>
+                <Text layoutX="54.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SNS USER NUMBER">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Text>
+                <Text layoutX="360.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADVERSE REACTIONS">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Text>
+                <TextField fx:id="snsnumber" layoutX="55.0" layoutY="99.0" prefHeight="26.0" prefWidth="182.0" promptText="SNS USER NUMBER" />
+                <Label fx:id="wrongVaccination" layoutX="87.0" layoutY="149.0" prefHeight="23.0" prefWidth="148.0" textFill="RED" />
+            </children>
+        </AnchorPane>
+    </top>
+    <right>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </right>
+    <bottom>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="btnCheckVacc" layoutX="54.0" layoutY="46.0" mnemonicParsing="false" onAction="#checkUserVaccination" prefHeight="26.0" prefWidth="186.0" text="CHECK VACCINATION" />
+                <TextArea fx:id="adversereactions" layoutX="363.0" layoutY="-73.0" prefHeight="200.0" prefWidth="200.0" promptText="Adverse Reactions" />
+                <Button fx:id="btnInsert" layoutX="376.0" layoutY="138.0" mnemonicParsing="false" onAction="#insertReactions" prefHeight="26.0" prefWidth="186.0" text="INSERT" />
+                <Label fx:id="wrongUser" layoutX="134.0" layoutY="79.0" textFill="RED" />
+                <Button fx:id="btnCheckUser" layoutX="55.0" layoutY="14.0" mnemonicParsing="false" onAction="#checkUserExistence" prefHeight="26.0" prefWidth="184.0" text="Check User" />
+            <Button fx:id="btnReturn" layoutX="108.0" layoutY="135.0" mnemonicParsing="false" onAction="#buttonReturn" text="Return" />
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>

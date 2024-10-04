@@ -1,0 +1,44 @@
+@startuml
+
+class NewUserEntryController{
++RegisterSNSUser(SNSNumber, timeOfArrival)
++saveSNSUser()
+}
+class NewUserEntryUI{
+}
+
+class Company{
+ -name
+ +getUsersWithVaccination()
+   +getSNSUser(userNumber)
+   +NewUserEntry(SNSUser, timeOfArrival)
+   +saveSNSUser(arrival)
+   -validateSNSUser(arrival)
+}
+class VaccineSchedulleStore{
+ +RegisterSNSUser(name, birthDate, SNSNumber, phoneNumber, email, vaccinationHistory)
+ +validateSNSUser(Rcp)
+ +saveSNSUser(Rcp)
+}
+class SNSUser{
+- name
+- birthDate
+- SNSNumber
+- phoneNumber
+- email
+- vaccinationHistory
+ + SNSUser(name, birthDate, SNSNumber, phoneNumber, email, vaccinationHistory)
+}
+class Date{
+-hours
+-minutes
+}
+
+Company "1" --> "1" VaccineSchedulleStore : Registers arrival
+VaccineSchedulleStore "1" -->"*" SNSUser: Registers
+NewUserEntryUI ..> NewUserEntryController
+VaccineSchedulleStore --> Date : Registers the time of arrival
+NewUserEntryController ..> Company
+
+NewUserEntryController ..> VaccineSchedulleStore
+@enduml

@@ -1,0 +1,6 @@
+name;sex;brithDate;address;phoneNumber;email;snsUserNumber;citizen
+Oscar;MASCULINE;12/12/2001;rua Fonceca;999999999;oscar@gmail.com;123456789;12345678
+Maria;FEMININE;13/12/2000;rua321;888888888;Maria;654123789;65423178
+Oscar;MASCULINE;12/12/2001;rua Fonceca;999999999;oscar@gmail.com;123456789;13456789
+Francisco;MAX;12/12/2001;rua 1233;999999999;francisco@gmail.com;123466789;13656789
+Francisca;mexs;12/12/2001;rua 1233;999999999;francisca@gmail.com;123456789;13456789

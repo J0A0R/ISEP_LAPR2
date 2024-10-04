@@ -1,0 +1,28 @@
+@startuml
+autonumber
+actor "Administrator" as ADM
+
+activate ADM
+ADM -> ":System" : Initiates the process to register an employee
+activate ":System"
+":System" --> ADM : requests data(userID, name, password)
+deactivate ":System"
+
+ADM -> ":System" : types requested data
+activate ":System"
+":System" --> ADM : shows the data regarding employee and requests a confirmation
+deactivate ":System"
+
+ADM -> ":System" : confirms the data
+activate ":System"
+":System" --> ADM : shows all data and requests confirmation
+deactivate ":System"
+
+ADM -> ":System" : confirms the data
+activate ":System"
+":System" --> ADM : informs operation success
+deactivate ":System"
+
+deactivate ADM
+
+@enduml

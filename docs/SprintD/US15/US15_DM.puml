@@ -1,0 +1,76 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+
+class Company{
+-designation
+}
+
+class Coordinator{
+}
+
+class VaccineAdministration{
+-timeOfAdministration
+-slot
+-waitingRoom
+-recoveryRoom
+}
+class VaccinationCenter{
+ name
+-address
+-phoneNumber
+-email
+-fax
+-website
+-openingAndClosingHours
+-slotDuration
+-maxVaccinesPerSlot
+-numberOfVaccinated
+}
+class VaccineType{
+    code
+    designation
+    whoID
+}
+
+class Employee{
+-id
+-name
+-address
+-phoneNumber
+-email
+-citizenCardNumber
+}
+
+class Vaccine{
+-name
+-brand
+}
+class SnsUser{
+-name
+-birthDate
+-SNSNumber
+-phoneNumber
+-email
+-sex
+-address
+-citizenCardID
+}
+class CommunityVaccinationCenter
+
+
+VaccinationCenter --> Coordinator : has
+Company --> VaccinationCenter : knows
+Coordinator --> Employee: is a
+Company --> Employee : employs
+VaccinationCenter --> VaccineAdministration : has
+Coordinator --> SnsUser : exports file with fully vaccinated
+Vaccine --> VaccineAdministration : has
+Vaccine --> SnsUser : is taken by
+VaccinationCenter  <|--  HealthCareCenter
+HealthCareCenter "*" --- "*" VaccineType: administers >
+VaccinationCenter <|--  CommunityVaccinationCenter
+CommunityVaccinationCenter "*" --- "1" VaccineType: administers >
+@enduml

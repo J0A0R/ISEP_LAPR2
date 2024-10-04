@@ -1,0 +1,86 @@
+@startuml
+autonumber
+'hide footbox
+actor "Nurse" as nurse
+
+participant ":WaitingRoomUI" as ui
+participant ":WaitingRoomController" as ctrl
+participant ":Company" as comp
+participant ":VaccinationCenterStore" as centerstore
+participant ":VaccineAdministrationStore" as vastore
+participant ":VaccineAdministration" as va
+
+
+activate nurse
+nurse -> ui : starts asking for waiting room list
+activate ui
+ui -> ctrl : getVaccinationCenterStore()
+activate ctrl
+ctrl -> comp : getVaccinationCenterStore()
+
+activate comp
+
+create ":VaccinationCenterList"
+
+comp -> ":VaccinationCenterList" : createVaccinationCenterList()
+
+loop for each vaccinationCenter
+comp -> centerstore : vaccinationCenter = get(i)
+activate centerstore
+deactivate centerstore
+comp -> ":VaccinationCenterList" : add(vaccinationCenter)
+activate ":VaccinationCenterList"
+deactivate ":VaccinationCenterList"
+end
+
+comp -> ctrl : printVaccinationCenterList()
+deactivate comp
+
+ctrl -> ui : printVaccinationCenterList()
+deactivate ctrl
+
+ui --> nurse: shows vaccination center list and requests data (vaccinationCenter)
+deactivate ui
+deactivate centerstore
+
+nurse -> ui: inserts requested data
+activate ui
+
+ui -> ctrl : getVaccineAdministrationStore(vaccineAdministration)
+activate ctrl
+
+ctrl -> comp : getVaccineAdministrationStore(vaccinationCenter)
+
+activate comp
+
+create ":VaccineAdministrationList"
+
+comp -> ":VaccineAdministrationList" : createVaccineAdministrationList()
+
+loop for each vaccine administration
+
+comp -> vastore : vaccineAdministration = get(i)
+activate vastore
+deactivate vastore
+
+comp -> va : waitingRoom = isInWaitingRoom(vaccineAdministration)
+activate va
+deactivate va
+
+opt waitingRoom == true
+comp -> ":VaccineAdministrationList" : add(vaccineAdministration)
+activate ":VaccineAdministrationList"
+deactivate ":VaccineAdministrationList"
+end
+end
+comp -> ctrl : printWaitingRoomList()
+deactivate comp
+
+ctrl -> ui : printWaitingRoomList()
+
+ui --> nurse: shows waiting room list
+deactivate ui
+deactivate nurse
+deactivate ctrl
+
+@enduml

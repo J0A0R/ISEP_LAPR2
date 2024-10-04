@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.MenuAdminGUISceneController">
+   <top>
+      <VBox alignment="CENTER" prefHeight="145.0" prefWidth="981.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lblAdmin" alignment="CENTER" prefHeight="118.0" prefWidth="1047.0" text="Administrator" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold Italic" size="80.0" />
+               </font></Label>
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="136.0" prefWidth="981.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#menuExitAction" prefHeight="66.0" prefWidth="201.0" text="Back">
+               <font>
+                  <Font name="Arial Bold Italic" size="32.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

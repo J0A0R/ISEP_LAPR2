@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+
+rectangle System {
+  usecase "As a center coordinator, I intended to check and export vaccination statistics. I want to export, to a csv file, the total number of fully vaccinated users per day." as UC15
+}
+
+:Center Coordinator: as CC
+
+CC -- UC15
+@enduml

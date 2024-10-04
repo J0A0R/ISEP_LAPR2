@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SNSUser{
+  name
+  birthDate
+  SNSNumber
+  phoneNumber
+  email
+  sex
+  address
+  citizenCardID
+}
+
+
+class VaccineType{
+  code
+  designation
+  whoID
+
+}
+
+class VaccinationCenter{
+  name
+  address
+  phoneNumber
+  email
+  fax
+  website
+  openingAndClosingHours
+  slotDuration
+  maxVaccinesPerSlot
+}
+
+class CommunityVaccinationCenter{
+}
+
+class HealthcareCenter{
+}
+
+
+class VaccineSchedule{
+  day
+  hour
+  location
+}
+
+class Company{
+    designation
+}
+
+
+class System
+
+class SMSNotification
+
+Company "1" -- "*" SNSUser: > owns
+Company "1" -- "*" VaccineType: > promotes administrator
+Company "1" ---- "*" VaccinationCenter: > manages
+Company "1" -- "1" System: > manages
+
+VaccineSchedule "*" -- "1" VaccineType: > for taking
+VaccineSchedule "*" --- "1" SNSUser: > created for
+VaccineSchedule "*" -- "1" VaccinationCenter: > scheduled at
+VaccineSchedule "1" -- "1" SMSNotification: > for
+
+
+VaccinationCenter "1" -- "1" HealthcareCenter: > can be
+VaccinationCenter "1" - "1" CommunityVaccinationCenter: > can be
+VaccinationCenter "*" - "1..*" VaccineType: > can administer
+
+System "1" -- "0..1" SNSUser: > notifies
+
+SMSNotification "1" -- "1" System:< emit
+SMSNotification "1" -- "1" VaccinationCenter:> for
+SNSUser "1" -- "0..1" SMSNotification:> authorizes
+
+
+@enduml

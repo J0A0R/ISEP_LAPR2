@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+
+rectangle System {
+  usecase "Registration Process" as UC1
+  usecase "Schedule Vaccine" as UC2
+  usecase "Request Certificate" as UC3
+  usecase "Emit Certificate" as UC4
+  usecase "Register Centers and Employees" as UC5
+  usecase "Configure and Manage Application Information " as UC6
+  usecase "Monitor Vaccination Process" as UC7
+  usecase "Notify User" as UC8
+  usecase "Indicate Vacccine" as UC9
+  usecase "Confirm Schedule" as UC10
+  usecase "Authorizes SMS notification" as UC11
+  usecase "Provides user data" as UC12
+  usecase "US9 - Register a Vaccination Center" as US9
+  usecase "US10 - Register an Employee" as US10
+  usecase "US11 - Asks for Employee List" as US11
+  usecase "US12 - Create Vaccine Type" as US12
+  usecase "US13 - Specify a new Vaccine and its Administration Process" as US13
+}
+
+:SNS User: as User
+:Nurse: as Nurse
+:Receptionists: as Recep
+:Coordinator: as Coord
+:Administrator: as Admin
+:AdministratorDGS: as AdminDGS
+:system: as system
+
+User -- UC1
+User -- UC2
+User -- UC3
+
+Nurse -- UC1
+Nurse -- UC2
+Nurse -- UC4
+
+AdminDGS -- UC5
+
+Admin -- UC6
+
+Coord -- UC7
+
+system -- UC8
+system -- UC9
+
+Recep -- UC10
+
+UC1 -- UC11
+UC1 -- UC12
+
+UC6 -- US12
+UC6 -- US13
+
+UC5 -- US9
+UC5 -- US10
+UC5 -- US11
+
+@enduml

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="400.8px" preserveAspectRatio="none" style="width:358px;height:400px;background:#FFFFFF;" version="1.1" viewBox="0 0 358 400" width="358.4px" zoomAndPan="magnify"><defs><filter height="300%" id="fdgucnk7n4d48" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6000000000000003"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2000000000000006" dy="3.2000000000000006" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7421f545a0d8420c5bec41e74b387d9c]
+class Employee--><rect codeLine="3" fill="#FEFECE" filter="url(#fdgucnk7n4d48)" height="115.8813" id="Employee" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="100.8" x="94.4" y="5.6"/><ellipse cx="120.44" cy="18.4" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M122.04,15.6 Q122.2025,15.2 122.39,15 Q122.5775,14.8 122.79,14.8 Q123.165,14.8 123.4025,15.025 Q123.64,15.25 123.64,15.775 L123.64,17.025 Q123.64,17.55 123.415,17.775 Q123.19,18 122.84,18 Q122.5275,18 122.3275,17.8625 Q122.1275,17.725 122.04,17.3625 Q122.0025,17.1125 121.865,16.975 Q121.615,16.7125 121.165,16.5625 Q120.715,16.4 120.265,16.4 Q119.7025,16.4 119.2275,16.625 Q118.765,16.85 118.4025,17.35 Q118.04,17.85 118.04,18.5375 L118.04,19.275 Q118.04,20.1 118.715,20.65 Q119.39,21.2 120.59,21.2 Q121.3025,21.2 121.8025,21.0375 Q122.09,20.95 122.415,20.6625 Q122.6275,20.5 122.74,20.45 Q122.8525,20.4 122.99,20.4 Q123.2525,20.4 123.44,20.6125 Q123.64,20.8125 123.64,21.1 Q123.64,21.375 123.365,21.7 Q122.965,22.175 122.3275,22.4375 Q121.49,22.8 120.465,22.8 Q119.265,22.8 118.3025,22.325 Q117.5275,21.95 116.9775,21.1375 Q116.44,20.325 116.44,19.3625 L116.44,18.4875 Q116.44,17.4875 116.915,16.6125 Q117.4025,15.7375 118.24,15.275 Q119.09,14.8 120.04,14.8 Q120.615,14.8 121.115,15 Q121.615,15.2 122.04,15.6 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44" x="134.76" y="22.3281">Employee</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="95.2" x2="194.4" y1="31.2" y2="31.2"/><rect fill="none" height="4.8" style="stroke:#C82930;stroke-width:0.8000000000000002;" width="4.8" x="100.8" y="37.6"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="20.8" x="110.4" y="43.5352">name</text><rect fill="none" height="4.8" style="stroke:#C82930;stroke-width:0.8000000000000002;" width="4.8" x="100.8" y="48.6688"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="27.2" x="110.4" y="54.6039">adress</text><rect fill="none" height="4.8" style="stroke:#C82930;stroke-width:0.8000000000000002;" width="4.8" x="100.8" y="59.7375"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="53.6" x="110.4" y="65.6727">phoneNumber</text><rect fill="none" height="4.8" style="stroke:#C82930;stroke-width:0.8000000000000002;" width="4.8" x="100.8" y="70.8063"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="19.2" x="110.4" y="76.7414">email</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="80" x="110.4" y="87.8102">citizenCardIDNumber</text><rect fill="none" height="4.8" style="stroke:#C82930;stroke-width:0.8000000000000002;" width="4.8" x="100.8" y="92.9438"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="40" x="110.4" y="98.8789">password</text><rect fill="none" height="4.8" style="stroke:#C82930;stroke-width:0.8000000000000002;" width="4.8" x="100.8" y="104.0125"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="39.2" x="110.4" y="109.9477">userName</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="95.2" x2="194.4" y1="115.0813" y2="115.0813"/><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="13" fill="#FEFECE" filter="url(#fdgucnk7n4d48)" height="71.6063" id="Administrator" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="84" x="163.6" y="184"/><ellipse cx="175.6" cy="196.8" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M177.2,194 Q177.3625,193.6 177.55,193.4 Q177.7375,193.2 177.95,193.2 Q178.325,193.2 178.5625,193.425 Q178.8,193.65 178.8,194.175 L178.8,195.425 Q178.8,195.95 178.575,196.175 Q178.35,196.4 178,196.4 Q177.6875,196.4 177.4875,196.2625 Q177.2875,196.125 177.2,195.7625 Q177.1625,195.5125 177.025,195.375 Q176.775,195.1125 176.325,194.9625 Q175.875,194.8 175.425,194.8 Q174.8625,194.8 174.3875,195.025 Q173.925,195.25 173.5625,195.75 Q173.2,196.25 173.2,196.9375 L173.2,197.675 Q173.2,198.5 173.875,199.05 Q174.55,199.6 175.75,199.6 Q176.4625,199.6 176.9625,199.4375 Q177.25,199.35 177.575,199.0625 Q177.7875,198.9 177.9,198.85 Q178.0125,198.8 178.15,198.8 Q178.4125,198.8 178.6,199.0125 Q178.8,199.2125 178.8,199.5 Q178.8,199.775 178.525,200.1 Q178.125,200.575 177.4875,200.8375 Q176.65,201.2 175.625,201.2 Q174.425,201.2 173.4625,200.725 Q172.6875,200.35 172.1375,199.5375 Q171.6,198.725 171.6,197.7625 L171.6,196.8875 Q171.6,195.8875 172.075,195.0125 Q172.5625,194.1375 173.4,193.675 Q174.25,193.2 175.2,193.2 Q175.775,193.2 176.275,193.4 Q176.775,193.6 177.2,194 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="58.4" x="186.8" y="200.7281">Administrator</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="164.4" x2="246.8" y1="209.6" y2="209.6"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="24.8" x="168.4" y="221.9352">userID</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="20.8" x="168.4" y="233.0039">name</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="40" x="168.4" y="244.0727">password</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="164.4" x2="246.8" y1="249.2063" y2="249.2063"/><!--MD5=[a059576e163b46f56762f12600c49258]
+class Nurse--><rect codeLine="18" fill="#FEFECE" filter="url(#fdgucnk7n4d48)" height="71.6063" id="Nurse" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="52.8" x="5.6" y="318.4"/><ellipse cx="17.6" cy="331.2" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M19.2,328.4 Q19.3625,328 19.55,327.8 Q19.7375,327.6 19.95,327.6 Q20.325,327.6 20.5625,327.825 Q20.8,328.05 20.8,328.575 L20.8,329.825 Q20.8,330.35 20.575,330.575 Q20.35,330.8 20,330.8 Q19.6875,330.8 19.4875,330.6625 Q19.2875,330.525 19.2,330.1625 Q19.1625,329.9125 19.025,329.775 Q18.775,329.5125 18.325,329.3625 Q17.875,329.2 17.425,329.2 Q16.8625,329.2 16.3875,329.425 Q15.925,329.65 15.5625,330.15 Q15.2,330.65 15.2,331.3375 L15.2,332.075 Q15.2,332.9 15.875,333.45 Q16.55,334 17.75,334 Q18.4625,334 18.9625,333.8375 Q19.25,333.75 19.575,333.4625 Q19.7875,333.3 19.9,333.25 Q20.0125,333.2 20.15,333.2 Q20.4125,333.2 20.6,333.4125 Q20.8,333.6125 20.8,333.9 Q20.8,334.175 20.525,334.5 Q20.125,334.975 19.4875,335.2375 Q18.65,335.6 17.625,335.6 Q16.425,335.6 15.4625,335.125 Q14.6875,334.75 14.1375,333.9375 Q13.6,333.125 13.6,332.1625 L13.6,331.2875 Q13.6,330.2875 14.075,329.4125 Q14.5625,328.5375 15.4,328.075 Q16.25,327.6 17.2,327.6 Q17.775,327.6 18.275,327.8 Q18.775,328 19.2,328.4 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="27.2" x="28.8" y="335.1281">Nurse</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="6.4" x2="57.6" y1="344" y2="344"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="24.8" x="10.4" y="356.3352">userID</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="20.8" x="10.4" y="367.4039">name</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="40" x="10.4" y="378.4727">password</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="6.4" x2="57.6" y1="383.6063" y2="383.6063"/><!--MD5=[03960189e81aa2c066c762ffabbee709]
+class Receptionist--><rect codeLine="23" fill="#FEFECE" filter="url(#fdgucnk7n4d48)" height="71.6063" id="Receptionist" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="80.8" x="266.8" y="318.4"/><ellipse cx="278.8" cy="331.2" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M280.4,328.4 Q280.5625,328 280.75,327.8 Q280.9375,327.6 281.15,327.6 Q281.525,327.6 281.7625,327.825 Q282,328.05 282,328.575 L282,329.825 Q282,330.35 281.775,330.575 Q281.55,330.8 281.2,330.8 Q280.8875,330.8 280.6875,330.6625 Q280.4875,330.525 280.4,330.1625 Q280.3625,329.9125 280.225,329.775 Q279.975,329.5125 279.525,329.3625 Q279.075,329.2 278.625,329.2 Q278.0625,329.2 277.5875,329.425 Q277.125,329.65 276.7625,330.15 Q276.4,330.65 276.4,331.3375 L276.4,332.075 Q276.4,332.9 277.075,333.45 Q277.75,334 278.95,334 Q279.6625,334 280.1625,333.8375 Q280.45,333.75 280.775,333.4625 Q280.9875,333.3 281.1,333.25 Q281.2125,333.2 281.35,333.2 Q281.6125,333.2 281.8,333.4125 Q282,333.6125 282,333.9 Q282,334.175 281.725,334.5 Q281.325,334.975 280.6875,335.2375 Q279.85,335.6 278.825,335.6 Q277.625,335.6 276.6625,335.125 Q275.8875,334.75 275.3375,333.9375 Q274.8,333.125 274.8,332.1625 L274.8,331.2875 Q274.8,330.2875 275.275,329.4125 Q275.7625,328.5375 276.6,328.075 Q277.45,327.6 278.4,327.6 Q278.975,327.6 279.475,327.8 Q279.975,328 280.4,328.4 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="55.2" x="290" y="335.1281">Receptionist</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="267.6" x2="346.8" y1="344" y2="344"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="24.8" x="271.6" y="356.3352">userID</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="20.8" x="271.6" y="367.4039">name</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="40" x="271.6" y="378.4727">password</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="267.6" x2="346.8" y1="383.6063" y2="383.6063"/><!--MD5=[5d2bdee92db0d01b75732190da037553]
+class Coordinator--><rect codeLine="29" fill="#FEFECE" filter="url(#fdgucnk7n4d48)" height="71.6063" id="Coordinator" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="77.6" x="136.4" y="318.4"/><ellipse cx="148.4" cy="331.2" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M150,328.4 Q150.1625,328 150.35,327.8 Q150.5375,327.6 150.75,327.6 Q151.125,327.6 151.3625,327.825 Q151.6,328.05 151.6,328.575 L151.6,329.825 Q151.6,330.35 151.375,330.575 Q151.15,330.8 150.8,330.8 Q150.4875,330.8 150.2875,330.6625 Q150.0875,330.525 150,330.1625 Q149.9625,329.9125 149.825,329.775 Q149.575,329.5125 149.125,329.3625 Q148.675,329.2 148.225,329.2 Q147.6625,329.2 147.1875,329.425 Q146.725,329.65 146.3625,330.15 Q146,330.65 146,331.3375 L146,332.075 Q146,332.9 146.675,333.45 Q147.35,334 148.55,334 Q149.2625,334 149.7625,333.8375 Q150.05,333.75 150.375,333.4625 Q150.5875,333.3 150.7,333.25 Q150.8125,333.2 150.95,333.2 Q151.2125,333.2 151.4,333.4125 Q151.6,333.6125 151.6,333.9 Q151.6,334.175 151.325,334.5 Q150.925,334.975 150.2875,335.2375 Q149.45,335.6 148.425,335.6 Q147.225,335.6 146.2625,335.125 Q145.4875,334.75 144.9375,333.9375 Q144.4,333.125 144.4,332.1625 L144.4,331.2875 Q144.4,330.2875 144.875,329.4125 Q145.3625,328.5375 146.2,328.075 Q147.05,327.6 148,327.6 Q148.575,327.6 149.075,327.8 Q149.575,328 150,328.4 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="52" x="159.6" y="335.1281">Coordinator</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="137.2" x2="213.2" y1="344" y2="344"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="24.8" x="141.2" y="356.3352">userID</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="20.8" x="141.2" y="367.4039">name</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="40" x="141.2" y="378.4727">password</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="137.2" x2="213.2" y1="383.6063" y2="383.6063"/><!--MD5=[b8a4f1f13c2d56b2385b1bfafed8418f]
+link Employee to Administrator--><path codeLine="35" d="M167.264,121.6 C175.456,142.448 184.464,165.392 191.696,183.792 " fill="none" id="Employee-Administrator" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="48.8" x="180.8" y="157.1961">is a part of</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="163.5997" y="138.7552">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="4" x="185.2607" y="175.3154">*</text><!--MD5=[1da12df22706e73e1def33b218b7f412]
+link Employee to Receptionist--><path codeLine="36" d="M195.384,104.632 C209.544,117.032 224.432,131.232 236.8,145.6 C280.784,196.712 292.368,214.216 307.2,280 C309.952,292.216 310.6,305.864 310.344,318.056 " fill="none" id="Employee-Receptionist" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="48.8" x="301.6" y="224.3961">is a part of</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="201.5565" y="106.6555">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="4" x="306.512" y="309.8236">*</text><!--MD5=[d8cf155570c2fc8069691ea2f7bdb19f]
+link Employee to Coordinator--><path codeLine="37" d="M118.032,121.872 C110.368,141.184 103.04,163.128 99.2,184 C93.408,215.472 96.24,224.136 99.2,256 C100.808,273.288 97.728,279.352 106.4,294.4 C113.792,307.232 125.04,318.624 136.304,327.904 " fill="none" id="Employee-Coordinator" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="48.8" x="100" y="224.3961">is a part of</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="109.7062" y="138.6485">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="4" x="126.0418" y="320.9146">*</text><!--MD5=[b71b66caf67976638439c0d1a3790473]
+link Employee to Nurse--><path codeLine="38" d="M94.376,106.296 C73.008,127.2 50.328,154.352 38.4,184 C20.808,227.736 22.704,283.056 26.6,318.392 " fill="none" id="Employee-Nurse" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="48.8" x="39.2" y="224.3961">is a part of</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="82.2893" y="108.74">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="4" x="21.4206" y="309.6831">*</text><!--MD5=[e2ddcc32583ff1a2f6fdd8d9fe473f71]
+link Administrator to Nurse--><path codeLine="39" d="M163.576,252.944 C130.864,277.968 86.464,311.936 58.528,333.312 " fill="none" id="Administrator-Nurse" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="40" x="124.8" y="291.5961">registers</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="151.6726" y="254.7203">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="4" x="64.7685" y="325.3689">*</text><!--MD5=[6db9f895ec78c08c4be6429f751f42ae]
+link Administrator to Coordinator--><path codeLine="40" d="M197.536,256.04 C193.136,275.248 187.704,298.96 183.304,318.2 " fill="none" id="Administrator-Coordinator" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="40" x="192" y="291.5961">registers</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="190.4083" y="272.8517">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="4" x="180.2387" y="309.7246">*</text><!--MD5=[64c52275ea9d22bde431e3436d41be0c]
+link Administrator to Receptionist--><path codeLine="41" d="M232.56,256.04 C247.256,275.248 265.4,298.96 280.112,318.2 " fill="none" id="Administrator-Receptionist" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="40" x="260" y="291.5961">registers</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="230.3575" y="272.8517">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="4" x="271.6579" y="309.7246">*</text><!--MD5=[cb0a5db0262d5c3f8c6f84e947436561]
+@startuml
+'https://plantuml.com/class-diagram
+
+class Employee{
+- name
+-adress
+-phoneNumber
+-email
+citizenCardIDNumber
+- password
+-userName
+}
+
+class Administrator{
+  userID
+  name
+  password
+}
+class Nurse{
+  userID
+  name
+  password
+}
+class Receptionist{
+  userID
+  name
+  password
+}
+
+class Coordinator{
+  userID
+  name
+  password
+}
+
+Employee "1" - - "*" Administrator : is a part of
+Employee "1" - - "*" Receptionist : is a part of
+Employee "1" - - "*" Coordinator : is a part of
+Employee "1" - - "*" Nurse : is a part of
+Administrator "1" - - "*" Nurse : registers
+Administrator "1" - - "*" Coordinator : registers
+Administrator "1" - - "*" Receptionist : registers
+
+
+
+@enduml
+
+@startuml
+
+class Employee{
+- name
+-adress
+-phoneNumber
+-email
+citizenCardIDNumber
+- password
+-userName
+}
+
+class Administrator{
+  userID
+  name
+  password
+}
+class Nurse{
+  userID
+  name
+  password
+}
+class Receptionist{
+  userID
+  name
+  password
+}
+
+class Coordinator{
+  userID
+  name
+  password
+}
+
+Employee "1" - - "*" Administrator : is a part of
+Employee "1" - - "*" Receptionist : is a part of
+Employee "1" - - "*" Coordinator : is a part of
+Employee "1" - - "*" Nurse : is a part of
+Administrator "1" - - "*" Nurse : registers
+Administrator "1" - - "*" Coordinator : registers
+Administrator "1" - - "*" Receptionist : registers
+
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

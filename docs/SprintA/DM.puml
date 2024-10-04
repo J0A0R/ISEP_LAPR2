@@ -1,0 +1,144 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class SNSUser{
+  name
+  birthDate
+  SNSNumber
+  phoneNumber
+  emailAddress
+  vaccinationHistory
+}
+
+class Receptionist{
+  userID
+  name
+  password
+}
+
+class Nurse{
+  userID
+  name
+  password
+}
+
+class Administrator{
+  userID
+  name
+  password
+}
+
+class AdministratorDGS{
+  userID
+  name
+  password
+}
+
+class Coordinator{
+  userID
+  name
+  password
+}
+
+class Vaccine{
+  name
+  brand
+}
+
+class VaccineType{
+  code
+  designation
+  whoID
+}
+
+class CommunityVaccinationCenter{
+  name
+  address
+  phoneNumber
+  emailAddress
+  fax
+  website
+  openingAndClosingHours
+  slotDuration
+  maxVaccinesPerSlot
+}
+
+class HealthcareCenter{
+  name
+  address
+  phoneNumber
+  emailAddress
+  fax
+  website
+  openingAndClosingHours
+  slotDuration
+  maxVaccinesPerSlot
+}
+
+class VaccineAdministration{
+  time
+  slots
+}
+
+class VaccineSchedule{
+  day
+  hour
+  location
+}
+
+class CompanyDGS{
+    designation
+}
+
+class System
+
+class WHO
+
+CompanyDGS "1" -- "*" SNSUser: > owns
+CompanyDGS "1" -- "*" VaccineType: > promotes administrator
+CompanyDGS "1" -- "*" Vaccine: > applies
+CompanyDGS "1" ---- "*" CommunityVaccinationCenter: > manages
+CompanyDGS "1" -- "*" HealthcareCenter: > manages
+CompanyDGS "1" -- "1..*" Administrator: > knows
+CompanyDGS "1" -- "1" System: > manages
+
+WHO"1" -- "1" CompanyDGS: > communicates
+
+Administrator "1" ---- "1..*" Nurse: > manages
+Administrator "1" -- "1..*" Receptionist: > manages
+Administrator "1" -- "1..*" Coordinator: > manages
+Administrator "1" -- "1..*" Vaccine: > manages
+Administrator "1" -- "1..*" VaccineType: > manages
+Administrator "1" -- "1..*" CommunityVaccinationCenter: > manages
+Administrator "1" -- "1..*" HealthcareCenter: > manages
+
+AdministratorDGS "1" -- "1..*" CommunityVaccinationCenter: > register
+AdministratorDGS "1" -- "1..*" HealthcareCenter: > register
+AdministratorDGS "1" -- "1..*" Nurse: > register
+AdministratorDGS "1" -- "1..*" Receptionist: > register
+AdministratorDGS "1" -- "1..*" Coordinator: > register
+AdministratorDGS "1" -- "1..*" Administrator: > register
+
+Receptionist "1" -- "*" VaccineSchedule: > confirms
+
+Nurse "1" -- "1..*" VaccineAdministration: > responsible for
+
+Coordinator "1" -- "1" CommunityVaccinationCenter: > coordinates
+Coordinator "1" -- "1" HealthcareCenter: > coordinates
+
+Vaccine "*" -- "1" VaccineType: > is of
+
+VaccineSchedule "*" -- "1" VaccineType: > for taking
+VaccineSchedule "*" -- "1" SNSUser: > created for
+
+VaccineAdministration "*" -- "1" SNSUser: > administered on
+VaccineAdministration "*" -- "1" Vaccine: > of
+VaccineAdministration "0..1" -- "0..1" VaccineSchedule: > fulfilling
+
+HealthcareCenter "*" -- "1..*" VaccineType: > can administer
+CommunityVaccinationCenter "*" - "1..*" VaccineType: > can administer
+
+System "1" -- "0..1" "SNSUser": > notifies
+
+@enduml

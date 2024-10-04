@@ -1,0 +1,99 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SNSUser{
+  name
+  birthDate
+  SNSNumber
+  phoneNumber
+  emailAddress
+  vaccinationHistory
+}
+
+class Nurse
+
+class Employee{
+    name
+    citizenCardID
+    address
+    email
+    phoneNumber
+    username
+    userID
+    password
+}
+
+class VaccinationCenter{
+  name
+  address
+  phoneNumber
+  email
+  fax
+  website
+  openingAndClosingHours
+  slotDuration
+  maxVaccinesPerSlot
+}
+
+class CommunityVaccinationCenter{
+}
+
+class HealthcareCenter{
+}
+
+
+class Vaccine{
+  name
+  brand
+}
+
+class VaccineType{
+  code
+  designation
+  whoID
+}
+
+class VaccineAdministration{
+  time
+  slots
+  waitingRoom
+}
+
+class VaccineSchedule{
+  day
+  hour
+  location
+}
+
+class CompanyDGS{
+    designation
+}
+
+
+
+CompanyDGS "1" -- "*" SNSUser: > owns
+CompanyDGS "1" -- "*" VaccineType: > promotes administrator
+CompanyDGS "1" -- "*" Vaccine: > applies
+
+Employee "1" -- "1" Nurse:> plays as
+Employee "1" -- "1..*" VaccinationCenter:> works at
+
+Nurse "1" -- "1..*" VaccineAdministration: > responsible for
+
+VaccinationCenter "1" -- "1" HealthcareCenter:> can be
+VaccinationCenter "1" -- "1" CommunityVaccinationCenter:> can be
+
+Vaccine "*" -- "1" VaccineType: > is of
+
+VaccineSchedule "*" -- "1" VaccineType: > for taking
+VaccineSchedule "*" -- "1" SNSUser: > created for
+
+
+VaccineAdministration "*" -- "1" SNSUser: > administered on
+VaccineAdministration "*" -- "1" Vaccine: > of
+VaccineAdministration "0..1" -- "0..1" VaccineSchedule: > fulfilling
+VaccineAdministration "1" -- "1" VaccinationCenter: > performed at
+
+
+
+@enduml

@@ -1,0 +1,87 @@
+@startuml
+autonumber
+'hide footbox
+actor "Nurse" as nurse
+
+participant ":WaitingRoomUI" as ui
+participant ":WaitingRoomController" as ctrl
+participant ":Company" as comp
+participant ":VaccineAdministrationStore" as vastore
+participant ":UserStore" as sustore
+participant ":SystemTimer" as timer
+
+activate nurse
+
+ref over nurse
+Checking Waiting Room List
+end ref
+
+activate ui
+ui --> nurse: request data (SNSNumber)
+deactivate ui
+nurse -> ui: inserts requested data
+activate ui
+ui -> ctrl : getVaccineAdministrationStore()
+activate ctrl
+
+ctrl -> comp : getVaccineAdministrationStore()
+activate comp
+ctrl -> comp : getUserStore()
+deactivate comp
+ctrl -> sustore : verifyUser(SNSNumber)
+deactivate ctrl
+note right: if the user does not exist, it will ask the nurse to introduce the SNS number again
+activate sustore
+
+
+ui --> nurse : request data (vaccineNumber, dose, lot)
+deactivate ui
+deactivate sustore
+nurse -> ui : inserts requested data
+
+activate ui
+ui -> ctrl : registerVaccineAdministration(vaccineNumber, dose, lot)
+
+activate ctrl
+ctrl -> vastore : registerVaccineAdministration(vaccineNumber, dose, lot)
+activate vastore
+deactivate ctrl
+
+vastore -> vastore : setVaccineAdministration(vaccineNumber, dose, lot)
+
+ui --> nurse : shows data and asks for confirmation
+deactivate ui
+deactivate vastore
+
+nurse -> ui : confirms data
+activate ui
+ui -> ctrl : saveVaccineAdministration()
+activate ctrl
+
+ctrl -> comp : saveVaccineAdministration()
+deactivate ctrl
+activate comp
+comp -> timer : getSystemTimer()
+activate timer
+deactivate timer
+comp -> vastore : saveVaccineAdministration()
+activate vastore
+deactivate comp
+
+vastore -> vastore : validateVaccineAdministration()
+vastore -> vastore : timeOfAdministration = systemTimer
+vastore -> vastore : recoveryRoomExitTime = systemTimer + 1800
+note right: recovery time is 30 minutes (1800 seconds)
+vastore -> vastore : saveVaccineAdministration()
+
+ui --> nurse: shows the data and informs of operation success
+deactivate ui
+deactivate vastore
+deactivate nurse
+deactivate ctrl
+
+ref over nurse
+Sending SMS Notification
+end ref
+
+@enduml

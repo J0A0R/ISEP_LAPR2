@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Company{
+- designation
+}
+
+class AdverseReactionsUI{
+}
+
+
+
+class AdverseReactionsController{
++ getVaccineAdministrationStore()
++ getSNSUserStore()
++ saveAdverseReactions()
++ registerAdverseReactions(adverse reactions)
+}
+
+class UserStore{
++ verifyUser(sns user username)
+}
+
+class VaccineAdministrationStore{
++ checkUserVaccination(sns user username)
++ registerAdverseReactions(adverse reactions)
++ checkUserVaccination(sns user username)
++ saveAdverseReactions()
++ validateAdverseReactions()
++ setAdverseReactions()
+}
+
+
+AdverseReactionsUI -> AdverseReactionsController
+AdverseReactionsController ..> Company
+Company --> UserStore
+Company --> VaccineAdministrationStore
+AdverseReactionsController ..> VaccineAdministrationStore
+AdverseReactionsController ..> UserStore
+
+
+
+@enduml

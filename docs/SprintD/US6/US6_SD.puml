@@ -1,0 +1,92 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+'hide footbox
+actor "SNSUser" as snsUser
+
+participant ":----UI" as UI
+participant ":-------Controller" as CTRL
+participant ":Company" as COMP
+participant "XMapper" as MAPPER
+participant "list:List <X>" as LIST
+participant "listDto:List<Dto>" as ListDto
+participant "Dto:\n" as DTO
+
+activate snsUser
+snsUser -> UI : starts recording daily the total number of people vaccinated
+activate UI
+UI --> snsUser: request data
+deactivate UI
+
+snsUser -> UI: inserts requested data
+activate UI
+
+activate CTRL
+UI -> CTRL:getListOfVaccinationCenter
+
+activate COMP
+CTRL -> COMP:getListOfVaccinationCenter
+
+activate LIST
+COMP --> LIST: create()
+
+COMP --> CTRL:ListOfVaccinationCenter
+deactivate COMP
+deactivate LIST
+
+activate MAPPER
+CTRL -> MAPPER:toDTO(ListOfVaccinationCenter)
+
+activate ListDto
+MAPPER --> ListDto: create()
+
+activate LIST
+MAPPER -> LIST: obj = get(i)
+
+deactivate ListDto
+
+activate MAPPER
+MAPPER -> MAPPER: objDTO = toDTO(obj)
+
+deactivate LIST
+
+activate DTO
+MAPPER --> DTO: create()
+deactivate MAPPER
+
+activate ListDto
+MAPPER -> ListDto: add(objDto)
+deactivate DTO
+
+deactivate ListDto
+
+MAPPER --> CTRL: ListOfVaccinationCenterDto
+deactivate MAPPER
+
+CTRL --> UI: ListOfVaccinationCenterDto
+
+UI --> snsUser: ListOfVaccinationCenterDto
+deactivate CTRL
+
+snsUser -> UI: select vaccinationCenter
+
+UI --> snsUser: show vaccinationCenter selected
+
+UI --> snsUser: request total number of vaccinated
+
+snsUser -> UI: inserts requested data
+
+
+UI -->  snsUser : shows the data and requests a confirmation
+
+
+snsUser -> UI : confirms all data
+
+
+deactivate CTRL
+UI --> snsUser : informs operation success
+deactivate UI
+
+deactivate "snsUser"
+@enduml

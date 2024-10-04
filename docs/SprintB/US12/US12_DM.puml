@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class CompanyDGS{
+   -designation
+}
+
+class Vaccine{
+  -name
+  -brand
+}
+
+class VaccineType{
+  -code
+  -designation
+  -whoID
+}
+
+class Administrator{
+  -userID
+  -name
+  -password
+}
+
+CompanyDGS "1" -- "*" VaccineType: > promotes administration
+CompanyDGS "1" -- "*" Vaccine: > applies
+CompanyDGS "1" -- "1..*" Administrator: > knows
+Administrator "1" -- "1..*" Vaccine: > manages
+Administrator "1" -- "1..*" VaccineType: > manages
+Vaccine "*" -- "1" VaccineType: > is of
+
+@enduml

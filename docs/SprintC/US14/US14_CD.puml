@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Company{
+- designation
+}
+
+class LoadSetUsersUI{
+
+}
+
+
+
+class LoadSetUsersController{
++ getLoadSetUsersStore()
++ saveSnsUser()
+}
+
+class UserStore{
++ loadSetUsers(.csv file name and path)
++ checkFileType(.csv file name and path)
++ readLine(.csv file name and path)
++ validateAttributes()
++ setVariablesValues()
++ checkUserExistence
++ saveSnsUser(su)
++ validateSnsUser(su)
++ addSnsUser(su)
+}
+
+class SnsUser{
+   name
+   birthDate
+   SNSNumber
+   phoneNumber
+   email
+   sex
+   address
+   citizenCardID
+   +create(name,birthDate,SNSNumber,phoneNumber,email,sex,address,citizenCardID)
+}
+
+class RandomPassGen{
+    + requestPassword()
+}
+
+class AuthFacade{
+    addUser(name,email,pwd)
+
+}
+
+LoadSetUsersUI -> LoadSetUsersController
+LoadSetUsersController ..> Company
+
+Company "1" --- "1" UserStore: > calls
+UserStore "1" --- "1" SnsUser: > calls
+UserStore "1" --- "1" RandomPassGen: > calls
+UserStore "1" --- "1" AuthFacade: > calls
+
+@enduml

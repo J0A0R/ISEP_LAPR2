@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="542px" preserveAspectRatio="none" style="width:1140px;height:542px;background:#FFFFFF;" version="1.1" viewBox="0 0 1140 542" width="1140px" zoomAndPan="magnify"><defs><filter height="300%" id="f1v1c1v5vk8tif" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="348.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="164" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343" y="394.4219"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="348.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="55.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="819" y="283.0156"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="969" y="162.3125"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1073.5" y="222.6641"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="141.7578" style="stroke:#000000;stroke-width:2.0;" width="815.5" x="116" y="298.0156"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="79.0547" style="stroke:#000000;stroke-width:2.0;" width="522" x="126" y="353.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="169" x2="169" y1="89.6094" y2="456.7734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="348" x2="348" y1="89.6094" y2="456.7734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="597" x2="597" y1="89.6094" y2="456.7734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="823.5" x2="823.5" y1="89.6094" y2="456.7734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="973.5" x2="973.5" y1="89.6094" y2="456.7734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1078.5" x2="1078.5" y1="89.6094" y2="456.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="136" y="86.5332">SNS User</text><ellipse cx="169" cy="15" fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M169,23 L169,50 M156,31 L182,31 M169,50 L156,65 M169,50 L182,65 " fill="none" filter="url(#f1v1c1v5vk8tif)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="136" y="470.3066">SNS User</text><ellipse cx="169" cy="483.3828" fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M169,491.3828 L169,518.3828 M156,499.3828 L182,499.3828 M169,518.3828 L156,533.3828 M169,518.3828 L182,533.3828 " fill="none" filter="url(#f1v1c1v5vk8tif)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="178" x="257" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="264" y="74.5332">:SMSNotificationController</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="178" x="257" y="455.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="264" y="477.3066">:SMSNotificationController</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="556" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="563" y="74.5332">:Company</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="556" y="455.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="563" y="477.3066">:Company</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="191" x="726.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="733.5" y="74.5332">:VaccineAdministrationStore</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="191" x="726.5" y="455.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="733.5" y="477.3066">:VaccineAdministrationStore</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="81" x="931.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="938.5" y="74.5332">:UserStore</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="81" x="931.5" y="455.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="938.5" y="477.3066">:UserStore</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="100" x="1026.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1033.5" y="74.5332">:SystemTimer</text><rect fill="#FEFECE" filter="url(#f1v1c1v5vk8tif)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="100" x="1026.5" y="455.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1033.5" y="477.3066">:SystemTimer</text><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="348.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="164" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343" y="394.4219"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="348.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="55.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="819" y="283.0156"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="969" y="162.3125"/><rect fill="#FFFFFF" filter="url(#f1v1c1v5vk8tif)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1073.5" y="222.6641"/><path d="M5,104.6094 L5,130.6094 L330,130.6094 L330,114.6094 L320,104.6094 L5,104.6094 " fill="#FBFB77" filter="url(#f1v1c1v5vk8tif)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M320,104.6094 L320,114.6094 L330,114.6094 L320,104.6094 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="304" x="11" y="123.1045">this process is automatic and happens every second</text><polygon fill="#A80036" points="957,158.3125,967,162.3125,957,166.3125,961,162.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="963" y1="162.3125" y2="162.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="609" y="157.4561">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="620" y="157.4561">getUserStore()</text><polygon fill="#A80036" points="1061.5,218.6641,1071.5,222.6641,1061.5,226.6641,1065.5,222.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="1067.5" y1="222.6641" y2="222.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="609" y="217.8076">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="620" y="217.8076">getSystemTimer()</text><polygon fill="#A80036" points="807,279.0156,817,283.0156,807,287.0156,811,283.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="813" y1="283.0156" y2="283.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="609" y="278.1592">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="620" y="278.1592">getVaccineAdministrationStore()</text><path d="M116,298.0156 L189,298.0156 L189,306.0156 L179,316.0156 L116,316.0156 L116,298.0156 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="141.7578" style="stroke:#000000;stroke-width:2.0;" width="815.5" x="116" y="298.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="131" y="312.5107">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="179" x="204" y="311.4346">[for each vaccineAdministration]</text><polygon fill="#A80036" points="812,334.7188,822,338.7188,812,342.7188,816,338.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="818" y1="338.7188" y2="338.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="609" y="333.8623">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="620" y="333.8623">vaccineAdministration = get(i)</text><path d="M126,353.7188 L191,353.7188 L191,361.7188 L181,371.7188 L126,371.7188 L126,353.7188 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="79.0547" style="stroke:#000000;stroke-width:2.0;" width="522" x="126" y="353.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="20" x="141" y="368.2139">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="229" x="206" y="367.1377">[systemTimer == recoveryRoomExitTime]</text><polygon fill="#A80036" points="364,390.4219,354,394.4219,364,398.4219,360,394.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="358" x2="591" y1="394.4219" y2="394.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="370" y="389.5654">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="381" y="389.5654">sendSMSNotification(phoneNumber)</text><polygon fill="#A80036" points="185,420.7734,175,424.7734,185,428.7734,181,424.7734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="179" x2="347" y1="424.7734" y2="424.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="191" y="419.917">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="202" y="419.917">sends SMS notification</text><!--MD5=[e1d890a0936cc5fbce8c2170df184ef9]
+@startuml
+autonumber
+'hide footbox
+actor "SNS User" as user
+
+participant ":SMSNotificationController" as ctrl
+participant ":Company" as comp
+participant ":VaccineAdministrationStore" as vastore
+participant ":UserStore" as sustore
+participant ":SystemTimer" as timer
+
+
+activate user
+
+note over user: this process is automatic and happens every second
+
+activate comp
+comp -> sustore : getUserStore()
+activate sustore
+deactivate sustore
+comp -> timer : getSystemTimer()
+activate timer
+deactivate timer
+comp -> vastore : getVaccineAdministrationStore()
+activate vastore
+
+loop for each vaccineAdministration
+comp -> vastore : vaccineAdministration = get(i)
+deactivate vastore
+
+opt systemTimer == recoveryRoomExitTime
+comp -> ctrl : sendSMSNotification(phoneNumber)
+activate ctrl
+ctrl -> user : sends SMS notification
+deactivate ctrl
+end
+end
+@enduml
+
+@startuml
+autonumber
+actor "SNS User" as user
+
+participant ":SMSNotificationController" as ctrl
+participant ":Company" as comp
+participant ":VaccineAdministrationStore" as vastore
+participant ":UserStore" as sustore
+participant ":SystemTimer" as timer
+
+
+activate user
+
+note over user: this process is automatic and happens every second
+
+activate comp
+comp -> sustore : getUserStore()
+activate sustore
+deactivate sustore
+comp -> timer : getSystemTimer()
+activate timer
+deactivate timer
+comp -> vastore : getVaccineAdministrationStore()
+activate vastore
+
+loop for each vaccineAdministration
+comp -> vastore : vaccineAdministration = get(i)
+deactivate vastore
+
+opt systemTimer == recoveryRoomExitTime
+comp -> ctrl : sendSMSNotification(phoneNumber)
+activate ctrl
+ctrl -> user : sends SMS notification
+deactivate ctrl
+end
+end
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

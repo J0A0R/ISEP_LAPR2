@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="989px" preserveAspectRatio="none" style="width:1003px;height:989px;background:#FFFFFF;" version="1.1" viewBox="0 0 1003 989" width="1003px" zoomAndPan="magnify"><defs><filter height="300%" id="f1bi2prbifioj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f1bi2prbifioj)" height="970" style="stroke:#000000;stroke-width:1.5;" width="828" x="163" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="552" y="23.5332">System</text><ellipse cx="341.9661" cy="208.7932" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="86.9661" ry="19.7932" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="276.4661" y="212.5217">Registration Process</text><ellipse cx="341.9775" cy="134.7955" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="79.4775" ry="18.2955" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="284.256" y="138.8709">Schedule Vaccine</text><ellipse cx="341.7516" cy="61.9503" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="82.7516" ry="18.9503" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="281.2516" y="65.6788">Request Certificate</text><ellipse cx="342.1476" cy="280.9295" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="72.6476" ry="16.9295" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="291.6476" y="285.4461">Emit Certificate</text><ellipse cx="341.9823" cy="797.1965" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="121.4823" ry="26.6965" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="237.9823" y="800.925">Register Centers and Employees</text><ellipse cx="342.1689" cy="700.0338" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="163.1689" ry="35.0338" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="292" x="194.1689" y="703.7623">Configure and Manage Application Information</text><ellipse cx="342.1585" cy="505.0317" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="108.1585" ry="24.0317" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="252.6585" y="508.7602">Monitor Vaccination Process</text><ellipse cx="342.1685" cy="874.0838" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="60.1685" ry="15.5838" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="305.1685" y="878.6004">Notify User</text><ellipse cx="341.7877" cy="943.0575" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="78.2877" ry="18.0575" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="285.0149" y="947.2774">Indicate Vacccine</text><ellipse cx="342.0785" cy="428.2157" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="79.0785" ry="18.2157" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="284.6751" y="432.3395">Confirm Schedule</text><ellipse cx="770.0397" cy="230.8079" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="104.5397" ry="23.3079" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="684.5397" y="234.5365">Authorizes SMS notification</text><ellipse cx="769.9202" cy="152.784" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="81.9202" ry="18.784" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="710.2512" y="156.5629">Provides user data</text><ellipse cx="341.8974" cy="353.9795" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="90.3974" ry="20.4795" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="272.3974" y="357.708">Checks Waiting Room</text><ellipse cx="769.9076" cy="353.9815" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="202.9076" ry="42.9815" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="378" x="580.9076" y="357.71">US5 - Check Users in Waiting Room of a Vaccination Center</text><ellipse cx="769.8204" cy="932.0641" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="130.8204" ry="28.5641" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="655.8204" y="935.7926">US9 - Register a Vaccination Center</text><ellipse cx="769.847" cy="844.1694" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="111.347" ry="24.6694" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="676.847" y="847.8979">US10 - Register an Employee</text><ellipse cx="770.1774" cy="759.0355" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="113.1774" ry="25.0355" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="675.1774" y="762.764">US11 - Asks for Employee List</text><ellipse cx="770.1128" cy="552.1226" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="108.6128" ry="24.1226" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="680.1128" y="555.8511">US12 - Create Vaccine Type</text><ellipse cx="769.859" cy="654.8718" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="204.859" ry="43.3718" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="382" x="578.859" y="658.6003">US13 - Specify a new Vaccine and its Administration Process</text><ellipse cx="342.101" cy="597.0202" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="153.101" ry="33.0202" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="275" x="204.601" y="600.7487">US14 - Load a Set of Users from a CSV File</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="62.5" cy="103" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M62.5,111 L62.5,138 M49.5,119 L75.5,119 M62.5,138 L49.5,153 M62.5,138 L75.5,153 " fill="none" filter="url(#f1bi2prbifioj)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="32.5" y="173.0332">SNS User</text><!--MD5=[c8b2cb7ab209025f476c1467c68b906a]
+entity Nurse--><ellipse cx="62.5" cy="235" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M62.5,243 L62.5,270 M49.5,251 L75.5,251 M62.5,270 L49.5,285 M62.5,270 L75.5,285 " fill="none" filter="url(#f1bi2prbifioj)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="44" y="305.0332">Nurse</text><!--MD5=[13d33e681bb8b80feb56fac81b77103f]
+entity Recep--><ellipse cx="62.5" cy="376" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M62.5,384 L62.5,411 M49.5,392 L75.5,392 M62.5,411 L49.5,426 M62.5,411 L75.5,426 " fill="none" filter="url(#f1bi2prbifioj)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="20" y="446.0332">Receptionists</text><!--MD5=[87cf2040e9033e55777134a3b5839dcf]
+entity Coord--><ellipse cx="62.5" cy="494" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M62.5,502 L62.5,529 M49.5,510 L75.5,510 M62.5,529 L49.5,544 M62.5,529 L75.5,544 " fill="none" filter="url(#f1bi2prbifioj)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="25" y="564.0332">Coordinator</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="62.5" cy="658" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M62.5,666 L62.5,693 M49.5,674 L75.5,674 M62.5,693 L49.5,708 M62.5,693 L75.5,708 " fill="none" filter="url(#f1bi2prbifioj)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="21" y="728.0332">Administrator</text><!--MD5=[3464c2e46c643ed0a802cf2fa6ff764a]
+entity AdminDGS--><ellipse cx="62.5" cy="776" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M62.5,784 L62.5,811 M49.5,792 L75.5,792 M62.5,811 L49.5,826 M62.5,811 L75.5,826 " fill="none" filter="url(#f1bi2prbifioj)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="6" y="846.0332">AdministratorDGS</text><!--MD5=[691a1726be306d84324876b17512fe90]
+entity system--><ellipse cx="62.5" cy="897" fill="#FEFECE" filter="url(#f1bi2prbifioj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M62.5,905 L62.5,932 M49.5,913 L75.5,913 M62.5,932 L49.5,947 M62.5,932 L75.5,947 " fill="none" filter="url(#f1bi2prbifioj)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="40.5" y="967.0332">system</text><!--MD5=[57bf3159251ba6d788e56222dd11fdd6]
+link User to UC1--><path d="M92.72,147.99 C110.46,155.51 133.72,164.69 155,171 C192.6,182.15 235.44,191.14 270.52,197.58 " fill="none" id="User-UC1" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[06ebee4cbbe132cc9038a23578b440b9]
+link User to UC2--><path d="M92.67,135 C132.61,135 205.8,135 262.42,135 " fill="none" id="User-UC2" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7128cd1693f5ac5e48a097ae8b02564a]
+link User to UC3--><path d="M92.7,121.97 C110.44,114.44 133.71,105.25 155,99 C193.38,87.73 237.23,78.82 272.71,72.58 " fill="none" id="User-UC3" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6454a9cb74213631d6ce3ed19d11a00c]
+link Nurse to UC1--><path d="M81.01,262.82 C99.4,258.47 129.18,251.53 155,246 C194.6,237.52 239.08,228.65 274.62,221.72 " fill="none" id="Nurse-UC1" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[122a2d3178e8d979fd7b1446804ed9a9]
+link Nurse to UC2--><path d="M81.01,241.09 C97.44,218.89 124.09,187.9 155,171 C188.19,152.86 229.09,143.75 264.09,139.22 " fill="none" id="Nurse-UC2" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1dabc8bd1d9ac7b7bcd18489e35ea162]
+link Nurse to UC4--><path d="M81.28,267.9 C118.78,269.79 207.73,274.28 271.07,277.47 " fill="none" id="Nurse-UC4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d7cd16f9e2b7e979640663022a28d00c]
+link Nurse to UC13--><path d="M81.06,278.09 C99,288.97 127.99,305.3 155,315 C190.4,327.72 231.15,336.84 265.48,343.05 " fill="none" id="Nurse-UC13" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[00eaad791713eeb2b95a0913869982b1]
+link AdminDGS to UC5--><path d="M119.32,805.79 C148.92,804.61 186.47,803.13 222.21,801.71 " fill="none" id="AdminDGS-UC5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[deccaae9059e79e2ea27b2ea541bfb12]
+link Admin to UC6--><path d="M104.15,691.46 C125.22,692.22 152.48,693.21 180.97,694.23 " fill="none" id="Admin-UC6" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4ec316e2bf75103577353a7d50821864]
+link Coord to UC7--><path d="M100.06,523.23 C135.46,520.55 190.76,516.37 239.46,512.68 " fill="none" id="Coord-UC7" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d0fb08718a3c3aaa313c7e983e4f57de]
+link system to UC8--><path d="M84.86,923.48 C103.36,918.79 130.85,912.04 155,907 C200.75,897.45 253.2,888.31 290.71,882.08 " fill="none" id="system-UC8" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[31672bd6fab717f5c0f236e221209873]
+link system to UC9--><path d="M84.81,930.08 C122.89,932 204.3,936.1 265.19,939.18 " fill="none" id="system-UC9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[587d2ca4a6712fd9003eeb205d11442e]
+link Recep to UC10--><path d="M105.04,410.99 C147.61,414.06 214.69,418.9 266.47,422.63 " fill="none" id="Recep-UC10" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1978fca336bca4903df2b7436344c5f8]
+link UC1 to UC11--><path d="M427.16,213.35 C496.27,216.92 594.36,221.98 667.75,225.77 " fill="none" id="UC1-UC11" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[435a66801dd8446fc406da295129f3d0]
+link UC1 to UC12--><path d="M418.18,199.12 C497.24,188.72 620.7,172.49 698.11,162.32 " fill="none" id="UC1-UC12" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[27fc45f02a11fc5791fdd97115ff576e]
+link UC6 to US12--><path d="M446.82,673.02 C466.76,665.92 487.02,657.29 505,647 C535.88,629.33 533.17,609.9 565,594 C597.51,577.76 635.93,567.8 670.62,561.69 " fill="none" id="UC6-US12" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f6e4067031224d8cececb29540f0747d]
+link UC6 to US13--><path d="M488.71,684.61 C520.03,681.3 553.52,677.76 586.05,674.33 " fill="none" id="UC6-US13" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dcc764c3f2593c2afc912603164dc134]
+link UC5 to US9--><path d="M432.22,814.77 C456.51,821.33 482.35,829.94 505,841 C534.95,855.63 534.74,872.02 565,886 C594.66,899.7 628.68,909.45 660.33,916.34 " fill="none" id="UC5-US9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6ffa28e5603ac14fdb779028d4774e6f]
+link UC5 to US10--><path d="M450.77,808.89 C518.19,816.33 604.39,825.84 670.06,833.08 " fill="none" id="UC5-US10" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8663f3b59e38af643f3e6c0afe763e8e]
+link UC5 to US11--><path d="M454.65,787.04 C519.73,781.24 601.27,773.96 665,768.28 " fill="none" id="UC5-US11" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f32dc50525759e2059af8319f36d4d70]
+link UC13 to US5--><path d="M432.56,354 C471.85,354 519.7,354 566.84,354 " fill="none" id="UC13-US5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8cffe5ebd8d66bb1147e6fd0cd52da1c]
+link UC6 to US14--><path d="M342,665 C342,653.4 342,641.8 342,630.2 " fill="none" id="UC6-US14" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b625925dada6d5719814c5f57f8fd1b9]
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+
+rectangle System {
+  usecase "Registration Process" as UC1
+  usecase "Schedule Vaccine" as UC2
+  usecase "Request Certificate" as UC3
+  usecase "Emit Certificate" as UC4
+  usecase "Register Centers and Employees" as UC5
+  usecase "Configure and Manage Application Information " as UC6
+  usecase "Monitor Vaccination Process" as UC7
+  usecase "Notify User" as UC8
+  usecase "Indicate Vacccine" as UC9
+  usecase "Confirm Schedule" as UC10
+  usecase "Authorizes SMS notification" as UC11
+  usecase "Provides user data" as UC12
+  usecase "Checks Waiting Room" as UC13
+  usecase "US5 - Check Users in Waiting Room of a Vaccination Center" as US5
+  usecase "US9 - Register a Vaccination Center" as US9
+  usecase "US10 - Register an Employee" as US10
+  usecase "US11 - Asks for Employee List" as US11
+  usecase "US12 - Create Vaccine Type" as US12
+  usecase "US13 - Specify a new Vaccine and its Administration Process" as US13
+  usecase "US14 - Load a Set of Users from a CSV File" as US14
+}
+
+:SNS User: as User
+:Nurse: as Nurse
+:Receptionists: as Recep
+:Coordinator: as Coord
+:Administrator: as Admin
+:AdministratorDGS: as AdminDGS
+:system: as system
+
+User - - UC1
+User - - UC2
+User - - UC3
+
+Nurse - - UC1
+Nurse - - UC2
+Nurse - - UC4
+Nurse - - UC13
+
+AdminDGS - - UC5
+
+Admin - - UC6
+
+Coord - - UC7
+
+system - - UC8
+system - - UC9
+
+Recep - - UC10
+
+UC1 - - UC11
+UC1 - - UC12
+
+UC6 - - US12
+UC6 - - US13
+
+UC5 - - US9
+UC5 - - US10
+UC5 - - US11
+
+UC13 - - US5
+
+UC6- US14
+
+@enduml
+
+@startuml
+
+left to right direction
+
+rectangle System {
+  usecase "Registration Process" as UC1
+  usecase "Schedule Vaccine" as UC2
+  usecase "Request Certificate" as UC3
+  usecase "Emit Certificate" as UC4
+  usecase "Register Centers and Employees" as UC5
+  usecase "Configure and Manage Application Information " as UC6
+  usecase "Monitor Vaccination Process" as UC7
+  usecase "Notify User" as UC8
+  usecase "Indicate Vacccine" as UC9
+  usecase "Confirm Schedule" as UC10
+  usecase "Authorizes SMS notification" as UC11
+  usecase "Provides user data" as UC12
+  usecase "Checks Waiting Room" as UC13
+  usecase "US5 - Check Users in Waiting Room of a Vaccination Center" as US5
+  usecase "US9 - Register a Vaccination Center" as US9
+  usecase "US10 - Register an Employee" as US10
+  usecase "US11 - Asks for Employee List" as US11
+  usecase "US12 - Create Vaccine Type" as US12
+  usecase "US13 - Specify a new Vaccine and its Administration Process" as US13
+  usecase "US14 - Load a Set of Users from a CSV File" as US14
+}
+
+:SNS User: as User
+:Nurse: as Nurse
+:Receptionists: as Recep
+:Coordinator: as Coord
+:Administrator: as Admin
+:AdministratorDGS: as AdminDGS
+:system: as system
+
+User - - UC1
+User - - UC2
+User - - UC3
+
+Nurse - - UC1
+Nurse - - UC2
+Nurse - - UC4
+Nurse - - UC13
+
+AdminDGS - - UC5
+
+Admin - - UC6
+
+Coord - - UC7
+
+system - - UC8
+system - - UC9
+
+Recep - - UC10
+
+UC1 - - UC11
+UC1 - - UC12
+
+UC6 - - US12
+UC6 - - US13
+
+UC5 - - US9
+UC5 - - US10
+UC5 - - US11
+
+UC13 - - US5
+
+UC6- US14
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

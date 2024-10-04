@@ -1,0 +1,100 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+'hide footbox
+actor "Coordinator" as CC
+
+participant "ExportStatisticsUI" as UI
+participant "ExportStatisticsController" as CTRL
+participant "Auth" as AUTH
+participant "VaccinationCenterStore" as vcStore
+participant "ExportStatistics" as EXP
+participant "AdminProcess" as AP
+participant "AdminOfVaccineStore" as AV
+
+activate CC
+
+CC -> UI : asks to check and export the vaccination statistics
+
+activate UI
+
+UI -> CTRL: coordinator = getCurrentSession()
+
+activate CTRL
+
+CTRL -> AUTH: getCurrentSession(email)
+
+activate AUTH
+deactivate AUTH
+deactivate CTRL
+
+UI ->CTRL:  vaccinationCenter = getVaccinationCenterList(coordinator)
+
+activate CTRL
+
+CTRL -> vcStore: getVaccinationCenterList()
+
+activate vcStore
+deactivate vcStore
+
+UI --> CC: asks for the initial date and the final date
+
+deactivate UI
+deactivate CTRL
+
+CC -> UI: types initial date along with final date
+
+activate UI
+
+UI->CTRL: filldates()
+
+activate CTRL
+
+CTRL -> EXP: filldates(initialDate, finalDate)
+
+activate EXP
+
+EXP -> AV: FullyVaccinatedUsers = getFullyVaccinatedUsers(vaccinationCenter, date)
+
+activate AV
+deactivate AV
+deactivate CTRL
+
+EXP -> AP: finalDose = getWhatDoseNumber(brand)
+
+activate AP
+deactivate AP
+deactivate EXP
+
+UI --> CC: shows the data and request if data wants to be exported.
+
+deactivate UI
+
+CC -> UI: selects the exported data
+
+activate UI
+
+UI --> CC: asks for file name
+
+deactivate UI
+
+CC -> UI: types the file name
+
+activate UI
+
+UI -> CTRL: writeToCSVFile()
+activate CTRL
+
+CTRL -> EXP: writeToCSVFile(fileName)
+
+activate EXP
+deactivate EXP
+deactivate CTRL
+
+UI --> CC: informs  operation sucess.
+deactivate UI
+@enduml
+
+

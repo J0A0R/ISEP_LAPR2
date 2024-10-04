@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "automatic\n Timer/Clock" as atc
+
+activate ":System"
+activate atc
+atc -> ":System" : Initiates request for automatic run at set time
+atc <-- ":System" : Retorn results
+
+
+
+@enduml

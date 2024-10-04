@@ -1,0 +1,67 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Administrator" as admin
+
+participant ":EmployeeListUI" as listui
+
+participant ":EmployeeListController" as controller
+participant ":Company" as company
+
+participant ":EmployeeListStore" as liststore
+participant ":EmployeeList" as list
+participant ":EmployeeStore" as empstore
+participant ":Employee" as emp
+
+activate admin
+
+admin -> listui: starts requesting employee list
+
+activate listui
+
+admin <-- listui : requests data (listRole)
+
+deactivate listui
+
+admin -> listui: types requested data
+
+activate listui
+
+listui -> controller: createEmployeeList(listRole)
+
+activate controller
+
+controller -> company: createEmployeeList(listRole)
+
+deactivate controller
+
+activate company
+
+company -> liststore: getEmployeeListStore()
+
+deactivate company
+
+activate liststore
+
+liststore -> list: createEmployeeList(listRole)
+liststore -> empstore: getEmployeeStore(NewEmployee)
+
+activate empstore
+
+empstore -> emp: createNewEmployee(name, userName, ...)
+deactivate empstore
+
+activate emp
+
+liststore -> listui: showList(NewEmployeeList)
+
+deactivate liststore
+
+admin <- listui: displays list
+
+deactivate listui
+
+admin ->listui : confirms the data
+listui --> admin : informs operation success
+
+@enduml

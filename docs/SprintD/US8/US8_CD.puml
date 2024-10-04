@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WaitingRoomUI
+
+class WaitingRoomController{
+    +getVaccinationCenterStore()
+    +getVaccineAdministrationStore()
+    +getUserStore()
+    +registerVaccineAdministration()
+    +saveVaccineAdministration()
+}
+
+class Company{
+    -designation
+    +createVaccinationCenterList()
+    +createVaccineAdministrationList()
+    +getSystemTimer()
+    +sendSMSNotification()
+}
+class VaccinationCenterStore{
+    +checkVaccinationCenterExistence()
+    +saveVaccinationCenter(vaccinationCenter)
+    +validateVaccinationCenter(vaccinationCenter)
+    +addVaccinationCenter(vaccinationCenter)
+}
+class VaccinationCenterList{
+}
+
+class VaccineAdministrationStore{
+    +isInWaitingRoom(waitingRoom)
+    +checkVaccineAdministrationExistence()
+    +saveVaccineAdministration(vaccineAdministration)
+    +validateVaccineAdministration(vaccineAdministration)
+    +addVaccineAdministration(vaccineAdministration)
+}
+class VaccineAdministrationList
+
+class UserStore{
++ checkUserExistence()
++ saveSnsUser(SNSUser)
++ validateSnsUser(SNSUser)
++ addSnsUser(SNSUser)
+}
+
+WaitingRoomUI ..> WaitingRoomController
+WaitingRoomController ..> Company
+Company ..> VaccinationCenterStore
+Company ..> VaccinationCenterList
+Company ..> UserStore
+Company ..> VaccineAdministrationList
+VaccineAdministrationStore ..> UserStore
+VaccineAdministrationStore <.. Company
+VaccineAdministrationStore ..> VaccinationCenterStore
+
+@enduml

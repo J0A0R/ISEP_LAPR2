@@ -1,0 +1,92 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":LoadSetUsersUI" as UI
+participant ":LoadSetUsersController" as CTRL
+participant ":Company" as COMP
+participant ":LoadSetUsersStore" as ST
+participant "su: SNSUser" as SU
+
+activate ADM
+ADM -> UI : starts loading a set of users
+activate UI
+UI --> ADM: request data (.csv file name and path)
+deactivate UI
+
+ADM -> UI: inserts requested data
+activate UI
+
+
+UI -> CTRL: getLoadSetSNSUsersStore()
+activate CTRL
+
+CTRL -> COMP: LoadSetSNSUsersStore
+activate COMP
+deactivate COMP
+
+CTRL -> ST : loadSetSNSUsers(.csv file name and path)
+
+activate ST
+
+CTRL -> ST: checkFileType(.csv file name and path))
+deactivate ST
+deactivate CTRL
+deactivate COMP
+loop
+CTRL -> ST: readLine(.csv file name and path)
+activate ST
+activate CTRL
+
+ST -> ST: validateAttributes()
+activate ST
+deactivate ST
+ST -> ST: setVariablesValues()
+activate ST
+deactivate ST
+ST -> ST: checkUserExistence()
+activate ST
+deactivate ST
+
+create SU
+ST --> SU: create (Name, Sex, Birth Date, Address, Phone Number, E-mail, SNS User Number and Citizen Card Number)
+
+CTRL -> ST: validateSnsUser(su)
+deactivate ST
+deactivate CTRL
+
+
+UI --> ADM: shows the data and asks for a confirmation
+deactivate UI
+ADM -> UI: confirms the data
+activate UI
+
+deactivate ST
+
+UI -> CTRL: saveSnsUser()
+activate CTRL
+CTRL -> ST: saveSnsUser(su)
+deactivate CTRL
+activate ST
+
+ST -> ST: validateSnsUser(su)
+activate ST
+deactivate ST
+
+ST -> ST: addSnsUser(su)
+activate ST
+deactivate ST
+
+end
+
+ref over ADM
+Creating SNSUser Login
+end ref
+
+UI --> ADM: tell operation success
+deactivate UI
+deactivate COMP
+deactivate ADM
+deactivate ST
+@enduml

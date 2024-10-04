@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+
+rectangle System {
+  usecase "Registration Process" as UC1
+  usecase "Schedule Vaccine" as UC2
+  usecase "Emit Certificate" as UC4
+  usecase "Authorizes SMS notification" as UC11
+  usecase "Provides user data" as UC12
+
+
+}
+
+:Nurse: as Nurse
+
+Nurse -- UC1
+Nurse -- UC2
+Nurse -- UC4
+
+UC1 -- UC11
+UC1 -- UC12
+
+
+
+
+@enduml

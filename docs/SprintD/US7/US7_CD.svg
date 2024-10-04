@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="518.1px" preserveAspectRatio="none" style="width:711px;height:518px;background:#FFFFFF;" version="1.1" viewBox="0 0 711 518" width="711.7px" zoomAndPan="magnify"><defs/><g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><g id="elem_Company"><rect codeLine="3" fill="#F1F1F1" height="72.1703" id="Company" rx="2.75" ry="2.75" style="stroke:#181818;stroke-width:0.55;" width="108.9" x="338.8" y="203.5"/><ellipse cx="358.765" cy="221.1" fill="#ADD1B2" rx="12.1" ry="12.1" style="stroke:#181818;stroke-width:1.1;"/><path d="M360.965,217.25 Q361.1884,216.7 361.4463,216.425 Q361.7041,216.15 361.9963,216.15 Q362.5119,216.15 362.8384,216.4594 Q363.165,216.7688 363.165,217.4906 L363.165,219.2094 Q363.165,219.9313 362.8556,220.2406 Q362.5463,220.55 362.065,220.55 Q361.6353,220.55 361.3603,220.3609 Q361.0853,220.1719 360.965,219.6734 Q360.9134,219.3297 360.7244,219.1406 Q360.3806,218.7797 359.7619,218.5734 Q359.1431,218.35 358.5244,218.35 Q357.7509,218.35 357.0978,218.6594 Q356.4619,218.9688 355.9634,219.6563 Q355.465,220.3438 355.465,221.2891 L355.465,222.3031 Q355.465,223.4375 356.3931,224.1938 Q357.3213,224.95 358.9713,224.95 Q359.9509,224.95 360.6384,224.7266 Q361.0338,224.6063 361.4806,224.2109 Q361.7728,223.9875 361.9275,223.9188 Q362.0822,223.85 362.2713,223.85 Q362.6322,223.85 362.89,224.1422 Q363.165,224.4172 363.165,224.8125 Q363.165,225.1906 362.7869,225.6375 Q362.2369,226.2906 361.3603,226.6516 Q360.2088,227.15 358.7994,227.15 Q357.1494,227.15 355.8259,226.4969 Q354.7603,225.9813 354.0041,224.8641 Q353.265,223.7469 353.265,222.4234 L353.265,221.2203 Q353.265,219.8453 353.9181,218.6422 Q354.5884,217.4391 355.74,216.8031 Q356.9088,216.15 358.215,216.15 Q359.0056,216.15 359.6931,216.425 Q360.3806,216.7 360.965,217.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="66" x="374.935" y="227.4014">Company</text><line style="stroke:#181818;stroke-width:0.55;" x1="339.9" x2="446.6" y1="238.7" y2="238.7"/><rect fill="none" height="6.6" style="stroke:#C82930;stroke-width:1.1;" width="6.6" x="347.6" y="247.5"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="80.3" x="360.8" y="259.0865">designation</text><line style="stroke:#181818;stroke-width:0.55;" x1="339.9" x2="446.6" y1="266.8703" y2="266.8703"/></g><!--MD5=[49e2f33beb3737d3fbc6e6d7ca73ec48]
+class AdverseReactionsUI--><g id="elem_AdverseReactionsUI"><rect codeLine="7" fill="#F1F1F1" height="52.8" id="AdverseReactionsUI" rx="2.75" ry="2.75" style="stroke:#181818;stroke-width:0.55;" width="174.9" x="7.7" y="46.2"/><ellipse cx="24.2" cy="63.8" fill="#ADD1B2" rx="12.1" ry="12.1" style="stroke:#181818;stroke-width:1.1;"/><path d="M26.4,59.95 Q26.6234,59.4 26.8813,59.125 Q27.1391,58.85 27.4313,58.85 Q27.9469,58.85 28.2734,59.1594 Q28.6,59.4688 28.6,60.1906 L28.6,61.9094 Q28.6,62.6313 28.2906,62.9406 Q27.9813,63.25 27.5,63.25 Q27.0703,63.25 26.7953,63.0609 Q26.5203,62.8719 26.4,62.3734 Q26.3484,62.0297 26.1594,61.8406 Q25.8156,61.4797 25.1969,61.2734 Q24.5781,61.05 23.9594,61.05 Q23.1859,61.05 22.5328,61.3594 Q21.8969,61.6688 21.3984,62.3563 Q20.9,63.0438 20.9,63.9891 L20.9,65.0031 Q20.9,66.1375 21.8281,66.8938 Q22.7563,67.65 24.4063,67.65 Q25.3859,67.65 26.0734,67.4266 Q26.4688,67.3063 26.9156,66.9109 Q27.2078,66.6875 27.3625,66.6188 Q27.5172,66.55 27.7063,66.55 Q28.0672,66.55 28.325,66.8422 Q28.6,67.1172 28.6,67.5125 Q28.6,67.8906 28.2219,68.3375 Q27.6719,68.9906 26.7953,69.3516 Q25.6438,69.85 24.2344,69.85 Q22.5844,69.85 21.2609,69.1969 Q20.1953,68.6813 19.4391,67.5641 Q18.7,66.4469 18.7,65.1234 L18.7,63.9203 Q18.7,62.5453 19.3531,61.3422 Q20.0234,60.1391 21.175,59.5031 Q22.3438,58.85 23.65,58.85 Q24.4406,58.85 25.1281,59.125 Q25.8156,59.4 26.4,59.95 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="139.7" x="39.6" y="70.1014">AdverseReactionsUI</text><line style="stroke:#181818;stroke-width:0.55;" x1="8.8" x2="181.5" y1="81.4" y2="81.4"/><line style="stroke:#181818;stroke-width:0.55;" x1="8.8" x2="181.5" y1="90.2" y2="90.2"/></g><!--MD5=[89ff6c081257b21b61de448f8cc0bfc9]
+class AdverseReactionsController--><g id="elem_AdverseReactionsController"><rect codeLine="12" fill="#F1F1F1" height="130.2813" id="AdverseReactionsController" rx="2.75" ry="2.75" style="stroke:#181818;stroke-width:0.55;" width="343.2" x="221.65" y="7.7"/><ellipse cx="291.225" cy="25.3" fill="#ADD1B2" rx="12.1" ry="12.1" style="stroke:#181818;stroke-width:1.1;"/><path d="M293.425,21.45 Q293.6484,20.9 293.9063,20.625 Q294.1641,20.35 294.4563,20.35 Q294.9719,20.35 295.2984,20.6594 Q295.625,20.9688 295.625,21.6906 L295.625,23.4094 Q295.625,24.1313 295.3156,24.4406 Q295.0063,24.75 294.525,24.75 Q294.0953,24.75 293.8203,24.5609 Q293.5453,24.3719 293.425,23.8734 Q293.3734,23.5297 293.1844,23.3406 Q292.8406,22.9797 292.2219,22.7734 Q291.6031,22.55 290.9844,22.55 Q290.2109,22.55 289.5578,22.8594 Q288.9219,23.1688 288.4234,23.8563 Q287.925,24.5438 287.925,25.4891 L287.925,26.5031 Q287.925,27.6375 288.8531,28.3938 Q289.7813,29.15 291.4313,29.15 Q292.4109,29.15 293.0984,28.9266 Q293.4938,28.8063 293.9406,28.4109 Q294.2328,28.1875 294.3875,28.1188 Q294.5422,28.05 294.7313,28.05 Q295.0922,28.05 295.35,28.3422 Q295.625,28.6172 295.625,29.0125 Q295.625,29.3906 295.2469,29.8375 Q294.6969,30.4906 293.8203,30.8516 Q292.6688,31.35 291.2594,31.35 Q289.6094,31.35 288.2859,30.6969 Q287.2203,30.1813 286.4641,29.0641 Q285.725,27.9469 285.725,26.6234 L285.725,25.4203 Q285.725,24.0453 286.3781,22.8422 Q287.0484,21.6391 288.2,21.0031 Q289.3688,20.35 290.675,20.35 Q291.4656,20.35 292.1531,20.625 Q292.8406,20.9 293.425,21.45 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="194.7" x="313.775" y="31.6014">AdverseReactionsController</text><line style="stroke:#181818;stroke-width:0.55;" x1="222.75" x2="563.75" y1="42.9" y2="42.9"/><line style="stroke:#181818;stroke-width:0.55;" x1="222.75" x2="563.75" y1="51.7" y2="51.7"/><ellipse cx="233.75" cy="63.8" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="223.3" x="243.65" y="72.0865">getVaccineAdministrationStore()</text><ellipse cx="233.75" cy="83.1703" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="132" x="243.65" y="91.4568">getSNSUserStore()</text><ellipse cx="233.75" cy="102.5406" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="170.5" x="243.65" y="110.8271">saveAdverseReactions()</text><ellipse cx="233.75" cy="121.9109" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="314.6" x="243.65" y="130.1975">registerAdverseReactions(adverse reactions)</text></g><!--MD5=[93af8b4494db78ec46e98fad8955a5aa]
+class UserStore--><g id="elem_UserStore"><rect codeLine="19" fill="#F1F1F1" height="72.1703" id="UserStore" rx="2.75" ry="2.75" style="stroke:#181818;stroke-width:0.55;" width="242" x="80.85" y="390.5"/><ellipse cx="162.525" cy="408.1" fill="#ADD1B2" rx="12.1" ry="12.1" style="stroke:#181818;stroke-width:1.1;"/><path d="M164.725,404.25 Q164.9484,403.7 165.2063,403.425 Q165.4641,403.15 165.7563,403.15 Q166.2719,403.15 166.5984,403.4594 Q166.925,403.7688 166.925,404.4906 L166.925,406.2094 Q166.925,406.9313 166.6156,407.2406 Q166.3063,407.55 165.825,407.55 Q165.3953,407.55 165.1203,407.3609 Q164.8453,407.1719 164.725,406.6734 Q164.6734,406.3297 164.4844,406.1406 Q164.1406,405.7797 163.5219,405.5734 Q162.9031,405.35 162.2844,405.35 Q161.5109,405.35 160.8578,405.6594 Q160.2219,405.9688 159.7234,406.6563 Q159.225,407.3438 159.225,408.2891 L159.225,409.3031 Q159.225,410.4375 160.1531,411.1938 Q161.0813,411.95 162.7313,411.95 Q163.7109,411.95 164.3984,411.7266 Q164.7938,411.6063 165.2406,411.2109 Q165.5328,410.9875 165.6875,410.9188 Q165.8422,410.85 166.0313,410.85 Q166.3922,410.85 166.65,411.1422 Q166.925,411.4172 166.925,411.8125 Q166.925,412.1906 166.5469,412.6375 Q165.9969,413.2906 165.1203,413.6516 Q163.9688,414.15 162.5594,414.15 Q160.9094,414.15 159.5859,413.4969 Q158.5203,412.9813 157.7641,411.8641 Q157.025,410.7469 157.025,409.4234 L157.025,408.2203 Q157.025,406.8453 157.6781,405.6422 Q158.3484,404.4391 159.5,403.8031 Q160.6688,403.15 161.975,403.15 Q162.7656,403.15 163.4531,403.425 Q164.1406,403.7 164.725,404.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="69.3" x="185.075" y="414.4014">UserStore</text><line style="stroke:#181818;stroke-width:0.55;" x1="81.95" x2="321.75" y1="425.7" y2="425.7"/><line style="stroke:#181818;stroke-width:0.55;" x1="81.95" x2="321.75" y1="434.5" y2="434.5"/><ellipse cx="92.95" cy="446.6" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="213.4" x="102.85" y="454.8865">verifyUser(sns user username)</text></g><!--MD5=[5ddb3901a3b177819463bfb72cbada42]
+class VaccineAdministrationStore--><g id="elem_VaccineAdministrationStore"><rect codeLine="23" fill="#F1F1F1" height="169.0219" id="VaccineAdministrationStore" rx="2.75" ry="2.75" style="stroke:#181818;stroke-width:0.55;" width="343.2" x="361.35" y="342.1"/><ellipse cx="433.125" cy="359.7" fill="#ADD1B2" rx="12.1" ry="12.1" style="stroke:#181818;stroke-width:1.1;"/><path d="M435.325,355.85 Q435.5484,355.3 435.8063,355.025 Q436.0641,354.75 436.3563,354.75 Q436.8719,354.75 437.1984,355.0594 Q437.525,355.3688 437.525,356.0906 L437.525,357.8094 Q437.525,358.5313 437.2156,358.8406 Q436.9063,359.15 436.425,359.15 Q435.9953,359.15 435.7203,358.9609 Q435.4453,358.7719 435.325,358.2734 Q435.2734,357.9297 435.0844,357.7406 Q434.7406,357.3797 434.1219,357.1734 Q433.5031,356.95 432.8844,356.95 Q432.1109,356.95 431.4578,357.2594 Q430.8219,357.5688 430.3234,358.2563 Q429.825,358.9438 429.825,359.8891 L429.825,360.9031 Q429.825,362.0375 430.7531,362.7938 Q431.6813,363.55 433.3313,363.55 Q434.3109,363.55 434.9984,363.3266 Q435.3938,363.2063 435.8406,362.8109 Q436.1328,362.5875 436.2875,362.5188 Q436.4422,362.45 436.6313,362.45 Q436.9922,362.45 437.25,362.7422 Q437.525,363.0172 437.525,363.4125 Q437.525,363.7906 437.1469,364.2375 Q436.5969,364.8906 435.7203,365.2516 Q434.5688,365.75 433.1594,365.75 Q431.5094,365.75 430.1859,365.0969 Q429.1203,364.5813 428.3641,363.4641 Q427.625,362.3469 427.625,361.0234 L427.625,359.8203 Q427.625,358.4453 428.2781,357.2422 Q428.9484,356.0391 430.1,355.4031 Q431.2688,354.75 432.575,354.75 Q433.3656,354.75 434.0531,355.025 Q434.7406,355.3 435.325,355.85 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="190.3" x="455.675" y="366.0014">VaccineAdministrationStore</text><line style="stroke:#181818;stroke-width:0.55;" x1="362.45" x2="703.45" y1="377.3" y2="377.3"/><line style="stroke:#181818;stroke-width:0.55;" x1="362.45" x2="703.45" y1="386.1" y2="386.1"/><ellipse cx="373.45" cy="398.2" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="297" x="383.35" y="406.4865">checkUserVaccination(sns user username)</text><ellipse cx="373.45" cy="417.5703" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="314.6" x="383.35" y="425.8568">registerAdverseReactions(adverse reactions)</text><ellipse cx="373.45" cy="436.9406" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="297" x="383.35" y="445.2271">checkUserVaccination(sns user username)</text><ellipse cx="373.45" cy="456.3109" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="170.5" x="383.35" y="464.5975">saveAdverseReactions()</text><ellipse cx="373.45" cy="475.6813" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="191.4" x="383.35" y="483.9678">validateAdverseReactions()</text><ellipse cx="373.45" cy="495.0516" fill="#84BE84" rx="3.3" ry="3.3" style="stroke:#038048;stroke-width:1.1;"/><text fill="#000000" font-family="sans-serif" font-size="15.4" lengthAdjust="spacing" textLength="158.4" x="383.35" y="503.3381">setAdverseReactions()</text></g><!--MD5=[7e4e8ab17ef1c24251ac1e87e5ab6bdb]
+link AdverseReactionsUI to AdverseReactionsController--><g id="link_AdverseReactionsUI_AdverseReactionsController"><path codeLine="33" d="M182.776,72.6 C193.743,72.6 204.71,72.6 215.677,72.6 " fill="none" id="AdverseReactionsUI-to-AdverseReactionsController" style="stroke:#181818;stroke-width:1.1;"/><polygon fill="#181818" points="221.419,72.6,211.519,68.2,215.919,72.6,211.519,77,221.419,72.6" style="stroke:#181818;stroke-width:1.1;"/></g><!--MD5=[cc1cf6350b1cbf5ba46f357afe7be85b]
+link AdverseReactionsController to Company--><g id="link_AdverseReactionsController_Company"><path codeLine="34" d="M393.25,137.962 C393.25,157.96 393.25,179.465 393.25,197.45 " fill="none" id="AdverseReactionsController-to-Company" style="stroke:#181818;stroke-width:1.1;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="393.25,203.412,397.65,193.512,393.25,197.912,388.85,193.512,393.25,203.412" style="stroke:#181818;stroke-width:1.1;"/></g><!--MD5=[102f1b3c68b20fc6574790ee0d106773]
+link Company to UserStore--><g id="link_Company_UserStore"><path codeLine="35" d="M356.345,276.529 C323.675,308.077 276.067,354.035 242.352,386.595 " fill="none" id="Company-to-UserStore" style="stroke:#181818;stroke-width:1.1;"/><polygon fill="#181818" points="238.315,390.489,248.4957,386.7844,242.2741,386.6713,242.3873,380.4497,238.315,390.489" style="stroke:#181818;stroke-width:1.1;"/></g><!--MD5=[30ef39b2ee092a2de45b8d9be2f78c33]
+link Company to VaccineAdministrationStore--><g id="link_Company_VaccineAdministrationStore"><path codeLine="36" d="M420.189,276.529 C433.301,293.887 449.724,315.612 465.938,337.062 " fill="none" id="Company-to-VaccineAdministrationStore" style="stroke:#181818;stroke-width:1.1;"/><polygon fill="#181818" points="469.612,341.913,467.1498,331.3628,466.2944,337.5262,460.1309,336.6709,469.612,341.913" style="stroke:#181818;stroke-width:1.1;"/></g><!--MD5=[8cde23577b094d689ec5d57ab0488bf9]
+link AdverseReactionsController to VaccineAdministrationStore--><g id="link_AdverseReactionsController_VaccineAdministrationStore"><path codeLine="37" d="M433.356,137.588 C445.203,158.136 457.512,181.324 466.95,203.5 C485.056,246.026 500.203,295.108 511.39,336.314 " fill="none" id="AdverseReactionsController-to-VaccineAdministrationStore" style="stroke:#181818;stroke-width:1.1;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="512.875,341.814,514.55,331.1105,511.4451,336.5031,506.0526,333.3983,512.875,341.814" style="stroke:#181818;stroke-width:1.1;"/></g><!--MD5=[7abf861d1455c8cfd48941ee149f9f83]
+link AdverseReactionsController to UserStore--><g id="link_AdverseReactionsController_UserStore"><path codeLine="38" d="M356.51,137.533 C344.597,158.477 331.386,181.918 319.55,203.5 C285.043,266.387 246.345,340.098 223.047,384.813 " fill="none" id="AdverseReactionsController-to-UserStore" style="stroke:#181818;stroke-width:1.1;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="220.286,390.126,228.7708,383.3897,222.8333,385.2515,220.9716,379.314,220.286,390.126" style="stroke:#181818;stroke-width:1.1;"/></g><!--MD5=[cf147e11a22827b380f50cceb0a2c2ac]
+@startuml
+'https://plantuml.com/class-diagram
+
+class Company{
+- designation
+}
+
+class AdverseReactionsUI{
+}
+
+
+
+class AdverseReactionsController{
++ getVaccineAdministrationStore()
++ getSNSUserStore()
++ saveAdverseReactions()
++ registerAdverseReactions(adverse reactions)
+}
+
+class UserStore{
++ verifyUser(sns user username)
+}
+
+class VaccineAdministrationStore{
++ checkUserVaccination(sns user username)
++ registerAdverseReactions(adverse reactions)
++ checkUserVaccination(sns user username)
++ saveAdverseReactions()
++ validateAdverseReactions()
++ setAdverseReactions()
+}
+
+
+AdverseReactionsUI -> AdverseReactionsController
+AdverseReactionsController ..> Company
+Company - -> UserStore
+Company - -> VaccineAdministrationStore
+AdverseReactionsController ..> VaccineAdministrationStore
+AdverseReactionsController ..> UserStore
+
+
+
+@enduml
+
+@startuml
+
+class Company{
+- designation
+}
+
+class AdverseReactionsUI{
+}
+
+
+
+class AdverseReactionsController{
++ getVaccineAdministrationStore()
++ getSNSUserStore()
++ saveAdverseReactions()
++ registerAdverseReactions(adverse reactions)
+}
+
+class UserStore{
++ verifyUser(sns user username)
+}
+
+class VaccineAdministrationStore{
++ checkUserVaccination(sns user username)
++ registerAdverseReactions(adverse reactions)
++ checkUserVaccination(sns user username)
++ saveAdverseReactions()
++ validateAdverseReactions()
++ setAdverseReactions()
+}
+
+
+AdverseReactionsUI -> AdverseReactionsController
+AdverseReactionsController ..> Company
+Company - -> UserStore
+Company - -> VaccineAdministrationStore
+AdverseReactionsController ..> VaccineAdministrationStore
+AdverseReactionsController ..> UserStore
+
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

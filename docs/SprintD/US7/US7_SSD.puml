@@ -1,0 +1,38 @@
+@startuml
+autonumber
+actor "Nurse" as ADM
+
+activate ADM
+ADM -> ":System" : starts recording adverse reactions of a SNS User
+activate ":System"
+":System" --> ADM : requests data (sns user username)
+deactivate ":System"
+
+
+
+ADM -> ":System" : types requested data
+activate ":System"
+
+
+":System" --> ADM: confirms data (sns user username)
+
+":System" --> ADM: requests data (adverse reactions)
+deactivate ":System"
+
+
+
+ADM -> ":System": types requested data
+
+activate ":System"
+":System" --> ADM : shows the data and requests a confirmation
+deactivate ":System"
+
+
+ADM -> ":System" : confirms the data
+activate ":System"
+":System" --> ADM : informs operation success
+deactivate ":System"
+
+deactivate ADM
+
+@enduml

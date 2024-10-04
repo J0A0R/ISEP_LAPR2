@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Nurse{
+  userID
+  name
+  password
+}
+
+class Administrator{
+  userID
+  name
+  password
+}
+
+class Vaccine{
+  name
+  brand
+}
+
+class VaccineAdministration{
+  time
+  slots
+}
+
+class Company{
+    designation
+}
+
+class VaccineType{
+  code
+  designation
+  whoID
+}
+
+Administrator "1" ---- "1..*" Nurse: > manages
+
+Administrator "1" -- "1..*" Vaccine: > manages
+
+Nurse "1" -- "1..*" VaccineAdministration: > responsible for
+
+VaccineAdministration "*" -- "1" Vaccine: > of
+
+Company "1" -- "*" Vaccine: > applies
+Company "1" -- "1..*" Administrator: > knows
+Company "1" -- "*" VaccineType: > promotes administrator
+Vaccine "*" -- "1" VaccineType: > is of
+
+@enduml

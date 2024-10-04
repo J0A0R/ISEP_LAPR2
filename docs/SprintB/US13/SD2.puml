@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":SpecifyNewVaccineAdministrationUI" as UI
+participant ":SpecifyNewVaccineAdministrationController" as CTRL
+  participant ":Company" as COMP
+participant "va:VaccineAdministration" as VA
+
+activate ADM
+ADM -> UI : starts specifying a new VaccineAdministration
+activate UI
+UI --> ADM: request data (time, slot)
+deactivate UI
+
+ADM -> UI: inserts requested data
+activate UI
+
+UI -> CTRL: create VaccineAdministration (time, slot)
+activate CTRL
+UI -> CTRL: VaccineAdministration()
+
+CTRL -> COMP: va = VaccineAdministration(time, slot)
+activate COMP
+
+create VA
+COMP --> VA: create (time, slot)
+
+CTRL -> COMP: validateVaccineAdministration(va)
+deactivate CTRL
+deactivate COMP
+
+UI --> ADM: shows the data and asks for a confirmation
+deactivate UI
+ADM -> UI: confirms the data
+activate UI
+
+UI -> CTRL: saveVaccineAdministration()
+
+activate CTRL
+CTRL -> COMP: saveVaccineAdministration(va)
+activate COMP
+deactivate CTRL
+
+
+COMP -> COMP: validateVaccineAdministration(va)
+activate COMP
+deactivate COMP
+
+COMP -> COMP: addVaccineAdministration(va)
+activate COMP
+deactivate COMP
+
+
+UI --> ADM: tell operation success
+deactivate UI
+deactivate COMP
+deactivate ADM
+
+@enduml

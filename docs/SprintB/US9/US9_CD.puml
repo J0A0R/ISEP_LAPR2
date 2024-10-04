@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Company{
+- designation
++ createVaccinationCenter(name, address, phone, e-mail, fax, website, opening,closing, slot_duration, max_number_per_slot)
++ validateVaccinationCenter(center)
++ saveVaccinationCenter(center)
++ addVaccinationCenter(center)
+}
+
+class SpecifyNewVaccinationCenterUI{
+}
+
+class VaccinationCenter{
+  -name
+  -address
+  -phone
+  -e-mail
+  -fax
+  -website
+  -opening_hours
+  -closing_hours
+  -slot_duration
+  -max_number_per_slot
+  + VaccinationCenter(name, address, phone, e-mail, fax, website, opening,closing, slot_duration, max_number_per_slot)
+}
+
+class SpecifyNewVaccinationCenterController{
++ createVaccinationCenter(name, address, phone, e-mail, fax, website, opening,closing, slot_duration, max_number_per_slot)
++ saveVaccinationCenter()
+}
+
+Company "1" --- "*" VaccinationCenter: > promotes administration
+SpecifyNewVaccinationCenterUI -> SpecifyNewVaccinationCenterController
+SpecifyNewVaccinationCenterController ..> Company
+SpecifyNewVaccinationCenterController .> VaccinationCenter
+
+
+
+@enduml

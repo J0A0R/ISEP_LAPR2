@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+
+class ExportStaticsUI{
+}
+
+class ExportStatisticsController{
++getCurrentSession()
++getVaccinationCenterList()
++getFullyVaccinatedUsers()
++filldates(initialDate, finalDate)
++writeToCSVFile(fileName)
+
+}
+
+class VaccinationCenterStore{
++getVaccinationCenter(coordinator)
+}
+
+class AuthFacade{
++getCurrentSession(email)
+}
+
+class AdministrationProcess{
++getWhatDoseNumber(brand)
+}
+
+class AdministrationOfAVaccineStore{
++getVaccinatedUsers(date)
+}
+
+class ExportStatistics{
++filldates(initialDate, finalDate)
++getFullyVaccinatedUsers(vacinationCenter, date)
++writeToCSVFile(fileName)
+}
+
+
+ExportStatistics ..> AdministrationOfAVaccineStore
+ExportStatisticsController ..> ExportStatistics
+ExportStaticsUI --> ExportStatisticsController
+ExportStatisticsController ..> AuthFacade
+ExportStatistics ..> AdministrationProcess
+ExportStatisticsController ..> VaccinationCenterStore
+
+@enduml

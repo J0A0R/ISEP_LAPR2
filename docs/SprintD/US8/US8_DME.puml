@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SNSUser{
+    name
+    birthDate
+    SNSNumber
+    phoneNumber
+    emailAddress
+    vaccinationHistory
+}
+
+class Nurse
+
+class VaccinationCenter{
+    name
+    address
+    phoneNumber
+    email
+    fax
+    website
+    openingAndClosingHours
+    slotDuration
+    maxVaccinesPerSlot
+}
+
+
+class VaccineAdministration{
+    time
+    slots
+    waitingRoom
+    recoveryRoom
+    recoveryRoomExitTime
+}
+
+class AgeGroup{
+    age
+    dose
+    dosage
+}
+
+class SMSNotification
+
+
+Employee "1" -- "1" Nurse:> plays as
+Employee "1" -- "1..*" VaccinationCenter:> works at
+
+Nurse "1" -- "1..*" VaccineAdministration: > responsible for
+
+VaccineAdministration "1" -- "1" SNSUser: > administered on
+VaccineAdministration "0..*" -- "1" VaccinationCenter: > performed at
+VaccineAdministration "0..*" -- "*" AgeGroup: > comprises
+
+SMSNotification "1" -- "1" SNSUser: > notifies
+
+@enduml

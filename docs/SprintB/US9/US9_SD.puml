@@ -1,0 +1,50 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":RegisterVaccinationCenterUI" as UI
+participant ":RegisterVaccinationCenterController" as CTRL
+participant ":Company" as COMP
+
+activate ADM
+ADM -> UI : Initiates the process to register a Vaccination Center
+activate UI
+UI --> ADM: requests data (name, address, phone, e-mail, fax, website, opening,closing, slot_duration, max_number)
+deactivate UI
+
+ADM -> UI: types requested data
+activate UI
+
+UI -> CTRL: Register Vaccination Center (name, address, phone, e-mail, fax, website, opening,closing, slot_duration, max_number)
+activate CTRL
+UI -> CTRL: Register´s Vaccination Center
+
+CTRL -> COMP: center = registerNewVaccinationCenter(name, address, phone, e-mail, fax, website, opening,closing, slot_duration, max_number_per_slot)
+activate COMP
+
+
+
+deactivate CTRL
+deactivate COMP
+
+UI --> ADM: shows the data regarding the Vaccination center
+deactivate UI
+ADM -> UI: confirms the data
+activate UI
+
+UI -> CTRL: saveVaccinationCenter
+
+activate CTRL
+CTRL -> COMP: saveNewVaccinationCenter(center)
+activate COMP
+deactivate CTRL
+
+
+
+UI --> ADM: informs operation success
+deactivate UI
+deactivate COMP
+deactivate ADM
+
+@enduml

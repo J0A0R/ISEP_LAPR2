@@ -1,0 +1,175 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SNSUser{
+    name
+    birthDate
+    SNSNumber
+    phoneNumber
+    email
+    sex
+    address
+    citizenCardID
+}
+
+class Employee{
+    name
+    citizenCardID
+    address
+    email
+    phoneNumber
+    username
+    userID
+    password
+}
+
+class Receptionist
+
+class Nurse
+
+class Coordinator
+
+class Administrator
+
+class AdministratorDGS{
+    userID
+    name
+    password
+}
+
+class Vaccine{
+    name
+    brand
+}
+
+class VaccineType{
+    code
+    designation
+    whoID
+}
+
+class VaccinationCenter{
+    name
+    address
+    phoneNumber
+    email
+    fax
+    website
+    openingAndClosingHours
+    slotDuration
+    maxVaccinesPerSlot
+    numberOfVaccinated
+}
+
+class CommunityVaccinationCenter
+
+class HealthcareCenter
+
+class VaccineAdministration{
+    timeOfAdministration
+    slot
+    waitingRoom
+    recoveryRoom
+    recoveryRoomExitTime
+}
+
+class AdverseReactions{
+    reactions
+}
+
+class VaccineSchedule{
+    day
+    hour
+    location
+    userArrival
+}
+
+class Company{
+    designation
+}
+
+class Certificates
+
+class System
+
+class SystemTimer{
+    systemtimer
+}
+
+class AgeGroup{
+    age
+    dose
+    dosage
+}
+
+class WHO
+
+class VaccinationHistory
+
+class SMSNotification
+
+SNSUser "1" -- "1..*" Certificates: > request
+SNSUser "1" -- "1" VaccinationHistory: > has
+
+Company "1" -- "*" SNSUser: > owns
+Company "1" -- "*" VaccineType: > promotes administrator
+Company "1" -- "*" Vaccine: > applies
+Company "1" ---- "*" VaccinationCenter: > manages
+Company "1" -- "1" System: > manages
+Company "1" -- "1..*" Certificates: > emits
+Company "1" ---- "*" Employee: > manages
+
+WHO "1" -- "1" Company: > communicates with
+
+Administrator "1" ---- "1..*" Nurse: > manages
+Administrator "1" -- "1..*" Receptionist: > manages
+Administrator "1" -- "1..*" Coordinator: > manages
+Administrator "1" -- "1..*" Vaccine: > manages
+Administrator "1" -- "1..*" VaccineType: > manages
+Administrator "1" -- "1..*" VaccinationCenter: > manages
+
+AdministratorDGS "1" -- "1..*" VaccinationCenter: > register
+AdministratorDGS "1" -- "0..1" Employee: > register
+
+Employee "1" -- "0..1" Nurse: > plays as
+Employee "1" -- "0..1" Receptionist: > plays as
+Employee "1" -- "0..1" Coordinator: > plays as
+Employee "1" -- "0..1" Administrator: > plays as
+Employee "1" -- "1..*" VaccinationCenter: > works at
+
+Receptionist "1" -- "*" VaccineSchedule: > confirms
+
+Nurse "1" -- "1..*" VaccineAdministration: > responsible for
+Nurse "1" - "0..*" Certificates: > emits
+
+Coordinator "1" -- "1" VaccinationCenter: > coordinates
+
+Vaccine "*" -- "1" VaccineType: > is of
+Vaccine "1..*" -- "1" VaccinationHistory: > compose
+Vaccine "1" -- "1" AgeGroup: > comprises
+
+VaccineSchedule "*" -- "1" VaccineType: > for taking
+VaccineSchedule "*" --- "1" SNSUser: > created for
+VaccineSchedule "*" -- "1" VaccinationCenter: > scheduled at
+VaccineSchedule "1" -- "1" SMSNotification: > for
+
+VaccineAdministration "*" -- "1" SNSUser: > administered on
+VaccineAdministration "*" -- "1" Vaccine: > of
+VaccineAdministration "0..1" -- "0..1" VaccineSchedule: < for
+VaccineAdministration "1" -- "1..*" AgeGroup: > comprises
+VaccineAdministration "1" -- "1" VaccinationCenter: > performed at
+VaccineAdministration "1" -- "0..*" AdverseReactions: > can occur
+
+VaccinationCenter "1" -- "1" HealthcareCenter: > can be
+VaccinationCenter "1" - "1" CommunityVaccinationCenter: > can be
+VaccinationCenter "*" - "1..*" VaccineType: > can administer
+
+System "1" -- "0..1" SNSUser: > notifies
+System "1" -- "1" SystemTimer: > utilizes
+
+SMSNotification "1" -- "1" System: < emit
+SMSNotification "1" -- "1" VaccinationCenter: > for
+
+SNSUser "1" -- "0..1" SMSNotification: > authorizes
+
+@enduml

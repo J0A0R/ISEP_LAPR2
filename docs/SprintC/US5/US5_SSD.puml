@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Nurse" as nurse
+participant "System" as sys
+
+nurse -> sys: starts asking for list
+nurse <- sys: requests data (VaccinationCenter)
+nurse -> sys: types requested data
+nurse <-- sys: shows requested list and informs operation success
+
+@enduml

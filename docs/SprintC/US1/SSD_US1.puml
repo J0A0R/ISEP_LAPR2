@@ -1,0 +1,51 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+actor "SNSUser" as snsUser
+
+activate snsUser
+snsUser -> ":System" : starts schedule the vaccine
+activate ":System"
+":System" --> snsUser : requests SNSNumber
+deactivate ":System"
+
+snsUser -> ":System" : types requested
+activate ":System"
+
+":System" --> snsUser : show vaccinationCenterList
+deactivate ":System"
+
+snsUser -> ":System" : select vaccinationCenter
+activate ":System"
+
+":System" --> snsUser : show vaccinationCenter selected
+deactivate ":System"
+
+":System" --> snsUser : show date and time
+deactivate ":System"
+
+snsUser -> ":System" : select date and time
+activate ":System"
+
+":System" --> snsUser : show date and time select
+deactivate ":System"
+
+":System" --> snsUser : show vaccineType
+deactivate ":System"
+
+snsUser -> ":System" : select vaccineType
+activate ":System"
+
+":System" --> snsUser : show vaccineType selected
+deactivate ":System"
+
+":System" --> snsUser : shows all data and requests a confirmation
+deactivate ":System"
+
+snsUser -> ":System" : confirms the data
+activate ":System"
+":System" --> snsUser : informs operation success
+deactivate ":System"
+
+deactivate snsUser
+@enduml

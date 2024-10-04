@@ -1,0 +1,100 @@
+@startuml
+autonumber
+'hide footbox
+actor "Nurse" as ADM
+
+participant ":AdverseReactionsUI" as UI
+participant ":AdverseReactionsController" as CTRL
+participant ":Company" as COMP
+participant ":VaccineAdministrationStore" as ST
+participant "su: SNSUserStore" as SU
+
+activate ADM
+ADM -> UI : starts registering adverse reactions
+activate UI
+UI --> ADM: request data (sns user username)
+deactivate UI
+
+
+ADM -> UI: inserts requested data
+activate UI
+
+
+
+UI -> CTRL: getVaccineAdministrationStore()
+activate CTRL
+UI -> CTRL: getSNSUserStore()
+
+
+CTRL -> COMP: VaccineAdministrationStore
+activate COMP
+
+CTRL -> COMP: SNSUserStore
+
+
+deactivate COMP
+
+CTRL -> SU : verifyUser(sns user username)
+activate SU
+deactivate SU
+
+ST -> ST : checkUserVaccination(sns user username)
+
+activate ST
+deactivate ST
+
+alt user exists and has taken the vaccine
+UI --> ADM: request data (adverse reactions)
+ADM -> UI: inserts requested data
+
+UI -> CTRL: registerAdverseReactions(adverse reactions)
+
+
+
+
+
+CTRL -> ST: registerAdverseReactions(adverse reactions)
+note right: If both conditions are not met, it will be asked to the Nurse to insert the data (sns user username) again
+activate ST
+ST -> ST: setAdverseReactions(adverse reactions)
+
+activate ST
+deactivate ST
+deactivate ST
+
+end
+
+activate ST
+deactivate CTRL
+
+
+deactivate ST
+
+
+
+UI -->ADM: shows data and requests a confirmation
+deactivate UI
+
+ADM -> UI: confirms data
+activate UI
+
+UI -> CTRL: saveAdverseReactions()
+activate CTRL
+
+
+CTRL -> ST: saveAdverseReactions()
+deactivate CTRL
+
+activate ST
+ST -> ST: validateAdverseReactions()
+activate ST
+deactivate ST
+
+ST -> ST:saveAdverseReactions()
+
+
+activate ST
+deactivate ST
+
+UI --> ADM: tell operation success
+@enduml

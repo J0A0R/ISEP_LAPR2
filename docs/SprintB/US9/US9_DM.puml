@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class CompanyDGS{
+   -designation
+}
+
+class VaccinationCenter{
+  -name
+  -address
+  -phone
+  -e-mail
+  -fax
+  -website
+  -opening_hours
+  -closing_hours
+  -slot_duration
+  -max_number_per_slot
+}
+
+class Administrator{
+  -userID
+  -name
+  -password
+}
+
+CompanyDGS "1" -- "*" VaccinationCenter: > promotes administration
+
+CompanyDGS "1" -- "1..*" Administrator: > knows
+Administrator "1" -- "1..*" VaccinationCenter: > registers
+
+@enduml

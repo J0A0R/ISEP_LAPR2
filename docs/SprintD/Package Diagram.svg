@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="169.2px" preserveAspectRatio="none" style="width:779px;height:169px;background:#FFFFFF;" version="1.1" viewBox="0 0 779 169" width="779.4px" zoomAndPan="magnify"><defs/><g><!--MD5=[2c2e2644034c00788261e03c85b06837]
+cluster Core--><g id="cluster_Core"><path d="M7.65,5.4 L39.15,5.4 A3.375,3.375 0 0 1 41.4,7.65 L47.7,26.6484 L770.85,26.6484 A2.25,2.25 0 0 1 773.1,28.8984 L773.1,160.65 A2.25,2.25 0 0 1 770.85,162.9 L7.65,162.9 A2.25,2.25 0 0 1 5.4,160.65 L5.4,7.65 A2.25,2.25 0 0 1 7.65,5.4 " style="stroke:#000000;stroke-width:1.35;fill:none;"/><line style="stroke:#000000;stroke-width:1.35;fill:none;" x1="5.4" x2="47.7" y1="26.6484" y2="26.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" font-weight="bold" lengthAdjust="spacing" textLength="30.6" x="9" y="20.2799">Core</text></g><!--MD5=[121a8bf1197281ab89ed693fab589f94]
+cluster Domain--><g id="cluster_Domain"><path d="M581.85,45 L629.55,45 A3.375,3.375 0 0 1 631.8,47.25 L638.1,66.2484 L749.25,66.2484 A2.25,2.25 0 0 1 751.5,68.4984 L751.5,139.05 A2.25,2.25 0 0 1 749.25,141.3 L581.85,141.3 A2.25,2.25 0 0 1 579.6,139.05 L579.6,47.25 A2.25,2.25 0 0 1 581.85,45 " style="stroke:#000000;stroke-width:1.35;fill:none;"/><line style="stroke:#000000;stroke-width:1.35;fill:none;" x1="579.6" x2="638.1" y1="66.2484" y2="66.2484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" font-weight="bold" lengthAdjust="spacing" textLength="46.8" x="583.2" y="59.8799">Domain</text></g><!--MD5=[9681dc6e01e10c6b4fe06895ae94f592]
+cluster UI--><g id="cluster_UI"><path d="M322.65,45 L336.15,45 A3.375,3.375 0 0 1 338.4,47.25 L344.7,66.2484 L555.75,66.2484 A2.25,2.25 0 0 1 558,68.4984 L558,139.05 A2.25,2.25 0 0 1 555.75,141.3 L322.65,141.3 A2.25,2.25 0 0 1 320.4,139.05 L320.4,47.25 A2.25,2.25 0 0 1 322.65,45 " style="stroke:#000000;stroke-width:1.35;fill:none;"/><line style="stroke:#000000;stroke-width:1.35;fill:none;" x1="320.4" x2="344.7" y1="66.2484" y2="66.2484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="324" y="59.8799">UI</text></g><path d="M231.75,77.4 L288.45,77.4 A3.375,3.375 0 0 1 290.7,79.65 L297,98.6484 L301.05,98.6484 A2.25,2.25 0 0 1 303.3,100.8984 L303.3,124.8469 A2.25,2.25 0 0 1 301.05,127.0969 L231.75,127.0969 A2.25,2.25 0 0 1 229.5,124.8469 L229.5,79.65 A2.25,2.25 0 0 1 231.75,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="229.5" x2="297" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="55.8" x="233.1" y="92.2799">Controller</text><path d="M123.3,77.4 L182.7,77.4 A3.375,3.375 0 0 1 184.95,79.65 L191.25,98.6484 L195.3,98.6484 A2.25,2.25 0 0 1 197.55,100.8984 L197.55,124.8469 A2.25,2.25 0 0 1 195.3,127.0969 L123.3,127.0969 A2.25,2.25 0 0 1 121.05,124.8469 L121.05,79.65 A2.25,2.25 0 0 1 123.3,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="121.05" x2="191.25" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="58.5" x="124.65" y="92.2799">AgeGroup</text><path d="M22.5,77.4 L74.7,77.4 A3.375,3.375 0 0 1 76.95,79.65 L83.25,98.6484 L87.3,98.6484 A2.25,2.25 0 0 1 89.55,100.8984 L89.55,124.8469 A2.25,2.25 0 0 1 87.3,127.0969 L22.5,127.0969 A2.25,2.25 0 0 1 20.25,124.8469 L20.25,79.65 A2.25,2.25 0 0 1 22.5,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="20.25" x2="83.25" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="51.3" x="23.85" y="92.2799">Vaccines</text><path d="M687.15,77.4 L722.25,77.4 A3.375,3.375 0 0 1 724.5,79.65 L730.8,98.6484 L734.85,98.6484 A2.25,2.25 0 0 1 737.1,100.8984 L737.1,124.8469 A2.25,2.25 0 0 1 734.85,127.0969 L687.15,127.0969 A2.25,2.25 0 0 1 684.9,124.8469 L684.9,79.65 A2.25,2.25 0 0 1 687.15,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="684.9" x2="730.8" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="34.2" x="688.5" y="92.2799">Model</text><path d="M596.25,77.4 L638.55,77.4 A3.375,3.375 0 0 1 640.8,79.65 L647.1,98.6484 L651.15,98.6484 A2.25,2.25 0 0 1 653.4,100.8984 L653.4,124.8469 A2.25,2.25 0 0 1 651.15,127.0969 L596.25,127.0969 A2.25,2.25 0 0 1 594,124.8469 L594,79.65 A2.25,2.25 0 0 1 596.25,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="594" x2="647.1" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="41.4" x="597.6" y="92.2799">Shared</text><path d="M506.7,77.4 L528.3,77.4 A3.375,3.375 0 0 1 530.55,79.65 L536.85,98.6484 L540.9,98.6484 A2.25,2.25 0 0 1 543.15,100.8984 L543.15,124.8469 A2.25,2.25 0 0 1 540.9,127.0969 L506.7,127.0969 A2.25,2.25 0 0 1 504.45,124.8469 L504.45,79.65 A2.25,2.25 0 0 1 506.7,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="504.45" x2="536.85" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="20.7" x="508.05" y="92.2799">GUI</text><path d="M409.95,77.4 L457.65,77.4 A3.375,3.375 0 0 1 459.9,79.65 L466.2,98.6484 L470.25,98.6484 A2.25,2.25 0 0 1 472.5,100.8984 L472.5,124.8469 A2.25,2.25 0 0 1 470.25,127.0969 L409.95,127.0969 A2.25,2.25 0 0 1 407.7,124.8469 L407.7,79.65 A2.25,2.25 0 0 1 409.95,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="407.7" x2="466.2" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="46.8" x="411.3" y="92.2799">Console</text><path d="M337.5,77.4 L360.9,77.4 A3.375,3.375 0 0 1 363.15,79.65 L369.45,98.6484 L373.5,98.6484 A2.25,2.25 0 0 1 375.75,100.8984 L375.75,124.8469 A2.25,2.25 0 0 1 373.5,127.0969 L337.5,127.0969 A2.25,2.25 0 0 1 335.25,124.8469 L335.25,79.65 A2.25,2.25 0 0 1 337.5,77.4 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.45;"/><line style="stroke:#181818;stroke-width:0.45;" x1="335.25" x2="369.45" y1="98.6484" y2="98.6484"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="22.5" x="338.85" y="92.2799">utils</text><!--MD5=[ebfa8c8af1478815511956d6d26b4e15]
+@startuml
+package Core{
+    package Controller{
+    }
+
+    package AgeGroup{
+    }
+
+    package Vaccines{
+    }
+
+
+    package Domain{
+        package Model{
+        }
+        package Shared{
+        }
+
+    }
+    package UI{
+        package GUI{}
+        package Console{}
+        package utils{}
+    }
+}
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

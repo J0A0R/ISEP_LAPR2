@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Nurse{
+}
+
+class SNSUser{
+  name
+  birthDate
+  SNSNumber
+  phoneNumber
+  email
+  sex
+  address
+  citizenCardID
+}
+
+class VaccineAdministration{
+    time
+    slots
+    waitingRoom
+    recoveryRoom
+    recoveryRoomExitTime
+}
+
+class AdverseReactions{
+    reaction
+}
+
+Nurse "1" -- "1..*" VaccineAdministration: > responsible for
+VaccineAdministration "*" -- "1" SNSUser: > administered on
+VaccineAdministration "1" -- "0..*" AdverseReactions: > can occur
+
+
+
+
+@enduml

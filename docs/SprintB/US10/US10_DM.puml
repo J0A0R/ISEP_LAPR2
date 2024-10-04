@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Employee{
+- name
+-adress
+-phoneNumber
+-email
+citizenCardIDNumber
+- password
+-userName
+-role
+}
+
+class Administrator{
+  userID
+  name
+  password
+}
+class Nurse{
+  userID
+  name
+  password
+}
+class Receptionist{
+  userID
+  name
+  password
+}
+
+class Coordinator{
+  userID
+  name
+  password
+}
+
+Employee "1" -- "*" Administrator : is a part of
+Employee "1" -- "*" Receptionist : is a part of
+Employee "1" -- "*" Coordinator : is a part of
+Employee "1" -- "*" Nurse : is a part of
+Administrator "1" -- "*" Nurse : registers
+Administrator "1" -- "*" Coordinator : registers
+Administrator "1" -- "*" Receptionist : registers
+
+
+
+@enduml

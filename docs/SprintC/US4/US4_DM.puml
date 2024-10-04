@@ -1,0 +1,31 @@
+@startuml
+hide methods
+skinparam classAttributeIconSize 0
+
+class Company {
+  -designation
+}
+
+class ArrivalSNSUser {
+}
+
+class SNSUser{
+- name
+- birthDate
+- SNSNumber
+- phoneNumber
+- email
+- vaccinationHistory
+}
+
+class UserCheckIn{
+  -SNSNumber
+  -VacinationDate
+}
+
+Company "1" -- "*" ArrivalSNSUser : registers the arrival >
+ArrivalSNSUser "1" -- "1" SNSUser : registers user that arrived >
+ArrivalSNSUser "1" -- "1" UserCheckIn : registers the time of arrival >
+
+
+@enduml

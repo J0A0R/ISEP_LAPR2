@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Coordinator as coordinator
+
+activate coordinator
+coordinator -> ":System" : asks to check and export the vaccination statistics
+activate ":System"
+":System" --> coordinator: asks for the initial date and the final date
+deactivate ":System"
+coordinator -> ":System" : types initial date along with final date
+activate ":System"
+":System" --> "coordinator" : shows the data and request if data wants to be exported.
+deactivate ":System"
+coordinator -> ":System" : selects the exported data
+activate ":System"
+":System" --> coordinator: asks for file name
+deactivate ":System"
+coordinator -> ":System" : types the file name
+activate ":System"
+":System" --> coordinator: informs  operation sucess.
+deactivate ":System"
+
+@enduml

@@ -1,0 +1,76 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+
+actor ":Administrator" as Administrator
+
+participant ":RegisterNewEmployeeUI" as RegisterUI
+
+participant ":RegisterNewEmployeeController" as controller
+participant "Company" as company
+participant "Employee" as emp
+participant ":store: Employee" as store
+
+
+
+activate Administrator
+Administrator -> RegisterUI: Initiates the process to register an employee
+RegisterUI -> controller: createEmployee()
+activate controller
+
+
+deactivate company
+
+controller -> company : newEmployee = getNewEmployee()
+controller -> emp : emp = createNreEmployee
+
+
+deactivate controller
+
+
+
+Administrator <-- RegisterUI : requests data(userID, name, password)
+
+deactivate RegisterUI
+
+Administrator -> RegisterUI: types requested data
+
+activate RegisterUI
+
+Administrator <-- RegisterUI: shows the data regarding employee and requests a confirmation
+deactivate RegisterUI
+Administrator -> RegisterUI: confirms the data
+activate RegisterUI
+RegisterUI -> controller: saveEmployee()
+activate controller
+controller -> emp : saveEmployee(emp)
+
+activate emp
+
+emp -> store : email = getEmail()
+activate store
+deactivate company
+
+
+
+emp -> store : email = getEmail()
+
+
+deactivate store
+
+emp -> emp : validateEmployee(emp)
+activate emp
+deactivate emp
+deactivate store
+RegisterUI --> Administrator : shows all data and requests confirmation
+
+deactivate RegisterUI
+Administrator ->RegisterUI : confirms the data
+deactivate controller
+activate RegisterUI
+
+
+RegisterUI --> Administrator : informs operation success
+
+@enduml

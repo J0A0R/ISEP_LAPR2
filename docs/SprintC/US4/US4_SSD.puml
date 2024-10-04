@@ -1,0 +1,23 @@
+@startuml
+autonumber
+actor "Administrator" as Rec
+
+activate Rec
+Rec -> ":System" : Initiates the process to register the arrival of a SNS user to take the vacine
+activate ":System"
+":System" --> Rec : requests data(SNSNumber, timeOfArrival)
+deactivate ":System"
+
+Rec -> ":System" : types requested data, and time of arrival.
+activate ":System"
+":System" --> Rec : shows the data regarding SNS user and requests a confirmation
+deactivate ":System"
+
+Rec -> ":System" : confirms the data
+activate ":System"
+":System" --> Rec :  informs operation success
+deactivate ":System"
+
+deactivate Rec
+
+@enduml

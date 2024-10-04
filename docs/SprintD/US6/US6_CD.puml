@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class App
+
+class Company{
+    +createTimer()
+    +createVaccinationCenterList()
+    +getVaccinationCenterStore()
+    getVaccineAdministrationStore()
+}
+
+class Timer
+
+class VaccineAdministrationStore
+
+class VaccineAdministrationList
+
+class VaccinationCenterStore
+
+class VaccinationCenterStore
+
+
+Company ..> Timer
+Company ..> VaccineAdministrationList
+Company ..> VaccineAdministrationStore
+Company ..> VaccinationCenterStore
+
+@enduml

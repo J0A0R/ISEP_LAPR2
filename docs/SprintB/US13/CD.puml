@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Company{
+- designation
+}
+
+class SpecifyNewVaccineUI{
+}
+
+class Vaccine{
+- name
+- brand
++ Vaccine(name, brand)
+}
+
+class SpecifyNewVaccineController{
++ createVaccine(name, brand)
++ getVaccineStore()
++ saveVaccine()
+}
+
+class SpecifyNewVaccineStore{
++ createVaccine(name, brand)
++ validateVaccine(v)
++ saveVaccine(v)
++ addVaccine(v)
+}
+class VaccineType{
+- code
+- designation
+- whoID
++ VaccineType(code, designation, whoId)
+}
+class VaccineAdministration{
+- time
+- slots
++ VaccineAdministration(time, slots)
+}
+
+SpecifyNewVaccineUI -> SpecifyNewVaccineController
+SpecifyNewVaccineController ..> Company
+SpecifyNewVaccineController .> Vaccine
+Company "1" --- "1" SpecifyNewVaccineStore: > calls
+SpecifyNewVaccineStore "1" --- "1" Vaccine: > calls
+Vaccine "1" --- "1" VaccineType: > calls
+Vaccine "1" --- "1" VaccineAdministration: > calls
+
+
+@enduml

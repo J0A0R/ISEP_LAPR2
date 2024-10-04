@@ -1,0 +1,90 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WaitingRoomListUI
+class WaitingRoomListController{
+    +getVaccinationCenterStore()
+    +getVaccineAdministrationStore()
+    +getUserStore()
+}
+class Company{
+    -designation
+}
+class VaccinationCenterStore{
+    +vaccinationCenterList(center)
+    +printVaccinationCenterList(vaccinationCenterList)
+    +validateAttributes()
+    +setVariablesValues()
+    +checkVaccinationCenterExistence
+    +saveVaccinationCenter(center)
+    +validateVaccinationCenter(center)
+    +addVaccinationCenter(center)
+}
+class VaccinationCenter{
+    -name
+    -address
+    -phone
+    -mail
+    -fax
+    -website
+    -opening_hours
+    -closing_hours
+    -slot_duration
+    -max_number_per_slot
+    +create(name, address, phone, mail, fax, website, opening_hours, closing_hours, slot_duration, max_number_per_slot)
+}
+class VaccineAdministration{
+    -waitingRoom
+    -recoveryRoom
+    -dose
+    -dosage
+    -ageGroup
+    +create(waitingRoom, recoveryRoom, dose, dosage, ageGroup)
+    +getUserStore(su)
+    +getVaccinationCenterStore(center)
+}
+class VaccineAdministrationStore{
+    +isInWaitingRoom(waitingRoom)
+    +printWaitingRoomList(name, sex, birthDate, SNSNumber, phoneNumber)
+    +validateAttributes()
+    +setVariablesValues()
+    +checkVaccineAdministrationExistence
+    +saveVaccineAdministration(vaccineadministration)
+    +validateVaccineAdministration(vaccineadministration)
+    +addVaccineAdministration(vaccineadministration)
+}
+class User{
+    -name
+    -sex
+    -birthDate
+    -address
+    -phoneNumber
+    -email
+    -snsUserNumber
+    -citizenCardNumber
+    +create(name,birthDate,SNSNumber,phoneNumber,email,sex,address,citizenCardID)
+}
+
+class UserStore{
++ loadSetUsers(.csv file name and path)
++ checkFileType(.csv file name and path)
++ readLine(.csv file name and path)
++ validateAttributes()
++ setVariablesValues()
++ checkUserExistence
++ saveSnsUser(su)
++ validateSnsUser(su)
++ addSnsUser(su)
+}
+
+WaitingRoomListUI ..> WaitingRoomListController
+WaitingRoomListController ..> Company
+Company ..> VaccinationCenterStore
+VaccinationCenterStore ..> VaccinationCenter
+VaccineAdministrationStore ..> VaccineAdministration
+VaccineAdministration ..> UserStore
+UserStore ..> User
+VaccineAdministrationStore <.. Company
+VaccineAdministration ..> VaccinationCenterStore
+
+@enduml

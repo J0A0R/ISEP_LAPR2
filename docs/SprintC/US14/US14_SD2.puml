@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+'hide footbox
+participant "Administrator" as ADM
+participant ":LoadSetUsersUI" as UI
+participant ":LoadSetUsersController" as CTRL
+participant ":Company" as COMP
+participant ":LoadSetUsersStore" as ST
+participant ":AuthFacade" as AF
+participant "su: SNSUser" as SU
+participant ":RandomPassGen" as RPG
+
+CTRL -> COMP: getAuthFacade()
+loop
+
+ST -> ST: getSNSUserLoginAttributes()
+activate ST
+deactivate ST
+
+ST -> RPG: requestPassword()
+RPG --> ST: return password
+ST -> AF: createSnsUserLogin(name,email,pwd)
+AF -> AF: validateSnsUser()
+UI --> ADM: inform operation success
+end
+
+
+
+@enduml

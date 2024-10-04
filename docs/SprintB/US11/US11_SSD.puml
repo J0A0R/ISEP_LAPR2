@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Administrator" as admin
+participant "System" as sys
+
+admin -> sys: starts asking for list
+sys --> admin: request data (listRole)
+admin -> sys: types requested data
+admin <-- sys: shows requested list
+admin -> sys: confirms the data
+admin <-- sys: informs operation success
+
+@enduml

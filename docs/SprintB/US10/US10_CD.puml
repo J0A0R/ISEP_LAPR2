@@ -1,0 +1,43 @@
+
+@startuml
+'https://plantuml.com/class-diagram
+' ======= layout =========
+
+class CreateNewEmployeeUI
+
+class Company {
+  -designation
+  +getEmployeeStore()
+}
+class EmployeeStore {
+   +createNewEmployee(name, adress, phoneNumber, e-mail, citizenCardIDNumber, password, userName, role)
+   +validateNewEmployee(par)
+   +saveNewEmployee(par)
+   +addNewEmployee(par)
+}
+
+class NewEmployee {
+  -name
+  -adress
+  -phoneNumber
+  -e-mail
+  -citizenCardIDNumber
+  -password
+  -userName
+  NewEmployee(name, adress, phoneNumber, e-mail, citizenCardIDNumber, password, userName, role)
+
+
+}
+
+class CreateEmployeeController{
+   +createNewNewEmployee(name, adress, phoneNumber, e-mail, citizenCardIDNumber, password, userName,role)
+   +saveNewEmployee()
+}
+class EmployeeStore
+CreateNewEmployeeUI ...> CreateEmployeeController
+CreateEmployeeController ...> Company
+CreateEmployeeController ..> EmployeeStore
+Company "1" ----> "1" EmployeeStore : "uses"
+EmployeeStore "1" ----> "*" NewEmployee : "creates"
+
+@enduml

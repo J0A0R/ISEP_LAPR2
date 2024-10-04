@@ -1,0 +1,29 @@
+@startuml
+autonumber
+actor "Nurse" as nurse
+participant "System" as sys
+
+activate nurse
+nurse -> sys : asks for waiting room list
+activate sys
+sys --> nurse : requests data(vaccinationCenter)
+deactivate sys
+nurse -> sys : types requested data
+activate sys
+sys --> nurse : shows the list of users waiting to take the vaccine and requests user (SNSUser)
+deactivate sys
+nurse -> sys : selects user from list
+activate sys
+sys --> nurse : asks for vaccine administration information (vaccineNumber, dose, lot)
+deactivate sys
+nurse -> sys : types requested data
+activate sys
+sys --> nurse : shows vaccine administration data and requests confirmation
+deactivate sys
+nurse -> sys : confirms the data
+activate sys
+sys --> nurse : informs of operation success and that an SMS message will be sent to the user after the recovery period is over
+deactivate sys
+deactivate nurse
+
+@enduml

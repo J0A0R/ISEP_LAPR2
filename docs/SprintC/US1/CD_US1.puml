@@ -1,0 +1,69 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Company{
+- designation
++getScheduleVaccineStore()
+}
+
+class ScheduleVaccineUI{
+}
+
+
+class ScheduleVaccineController{
++ createScheduleVaccine(**ScheduleVaccineDto**)
++saveSV()
+}
+
+class ScheduleVaccineStore{
+- checkSNSNumber
+- checkDuplicates - ScheduleVaccine
+- validateSV
+- addSV
+- sendSMSNotification
++createSV(**ScheduleVaccineDto**)
++ validateScheduleVaccine(SV)
++ saveSV(ScheduleVaccine)
+
+}
+class ScheduleVaccine{
+- day
+- hour
+- location
+
+}
+class ScheduleVaccineDTO{
++getName
++getBirthDate
++getSNSNumber
++getPhoneNumber
++getEmail
++getSex
++getAddress
++getCitizenCardID
+}
+
+class AuthFacade{
++existsUser(phoneNumber)
+}
+
+class SMSNotification{
++sendSMSNotification(name, vaccinationCenter, day, hour, address)
+}
+
+
+
+ScheduleVaccineUI ..> ScheduleVaccineController
+ScheduleVaccineUI ..> ScheduleVaccineDTO
+ScheduleVaccineController ..> Company
+ScheduleVaccineController ..> ScheduleVaccine
+ScheduleVaccineController ..> ScheduleVaccineDTO
+ScheduleVaccineController ..> ScheduleVaccineStore
+Company "1" -down-> "1" ScheduleVaccineStore : uses
+ScheduleVaccineStore "1" -up-> "*" ScheduleVaccine : knows >
+ScheduleVaccineStore .right.> ScheduleVaccineDTO
+ScheduleVaccineStore .left.> SMSNotification
+ScheduleVaccine ..>ScheduleVaccineDTO
+ScheduleVaccineStore ..> AuthFacade
+
+@enduml

@@ -1,0 +1,122 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+'hide footbox
+actor "SNSUser" as snsUser
+
+participant ":ScheduleVaccineUI" as UI
+participant ":ScheduleVaccineController" as CTRL
+participant ":Company" as COMP
+participant " store:\nScheduleVaccineStore" as STORE
+participant "sv: ScheduleVaccine" as SV
+participant "Dto:\nScheduleVaccineDto" as DTO
+participant ":\nAuthFacade" as AUTH
+
+activate snsUser
+snsUser -> UI : starts by Schedule the Vaccine
+activate UI
+UI --> snsUser: request SNSNumber
+deactivate UI
+
+snsUser -> UI: inserts requested data
+activate UI
+
+activate STORE
+UI -> STORE:data validation
+
+STORE -> STORE: checkSNSNumber
+activate STORE
+deactivate STORE
+
+STORE --> UI: confirmation data
+deactivate STORE
+deactivate UI
+
+UI --> snsUser: show vaccinationCenterList
+activate UI
+snsUser -> UI: select vaccinationCenter
+
+UI --> snsUser: show vaccinationCenter selected
+deactivate UI
+
+UI --> snsUser: show data and time
+activate UI
+snsUser -> UI: select data and time
+
+UI --> snsUser: show data and time
+deactivate UI
+
+UI --> snsUser: show vaccineType
+activate UI
+snsUser -> UI: select vaccineType
+
+UI --> snsUser: show vaccineType selected
+
+UI -> CTRL : createScheduleVaccine(**ScheduleVaccineDto**)
+activate CTRL
+deactivate UI
+
+CTRL -> COMP: store = getScheduleVaccineStore()
+activate COMP
+deactivate COMP
+
+CTRL -> STORE : sv = createScheduleVaccine(**ScheduleVaccineDto**)
+activate STORE
+
+create SV
+STORE --> SV: create(**ScheduleVaccineDto**)
+
+activate SV
+SV -> DTO: SNSNumber = getSNSNumber()
+activate DTO
+note over SV,DTO: several interaction to extract data from DTO
+deactivate DTO
+deactivate SV
+deactivate STORE
+
+CTRL -> STORE: validateScheduleVaccine
+deactivate CTRL
+
+activate STORE
+STORE -> SV: phoneNumber = getphoneNumber()
+activate SV
+deactivate SV
+STORE -> AUTH: b = existsUser(phoneNumber)
+activate AUTH
+deactivate AUTH
+STORE -> STORE: checkDuplicates(ScheduleVaccine)
+activate STORE
+deactivate STORE
+deactivate STORE
+deactivate CTRL
+UI -->  snsUser : shows the data and requests a confirmation
+
+activate UI
+snsUser -> UI : confirms all data
+
+UI -> CTRL : saveSV()
+activate CTRL
+CTRL ->STORE : saveSV(ScheduleVaccine)
+deactivate CTRL
+activate STORE
+STORE -> STORE: validateSV(ScheduleVaccine)
+activate STORE
+deactivate STORE
+
+STORE -> STORE: addSV(ScheduleVaccine)
+activate STORE
+deactivate STORE
+
+STORE -> STORE: sendSMSNotification(name, vaccinationCenter, day, hour, address)
+activate STORE
+deactivate STORE
+
+deactivate STORE
+deactivate CTRL
+UI --> snsUser : informs operation success
+deactivate UI
+
+deactivate "snsUser"
+
+@enduml

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="782px" preserveAspectRatio="none" style="width:1042px;height:782px;background:#FFFFFF;" version="1.1" viewBox="0 0 1042 782" width="1042px" zoomAndPan="magnify"><defs><filter height="300%" id="fermys1ns3xnd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="579.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="198.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337.5" y="182.6641"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="267.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337.5" y="411.3828"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="137.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="552.5" y="213.0156"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="552.5" y="441.7344"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="76.9609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780.5" y="273.7188"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="207.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780.5" y="472.0859"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="785.5" y="540.4375"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="785.5" y="613.7891"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="49" x2="49" y1="89.6094" y2="697.1406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="342.5" x2="342.5" y1="89.6094" y2="697.1406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="557.5" x2="557.5" y1="89.6094" y2="697.1406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="785.5" x2="785.5" y1="89.6094" y2="697.1406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="990.5" x2="990.5" y1="315.0234" y2="697.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="86.5332">Administrator</text><ellipse cx="49.5" cy="15" fill="#FEFECE" filter="url(#fermys1ns3xnd)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,23 L49.5,50 M36.5,31 L62.5,31 M49.5,50 L36.5,65 M49.5,50 L62.5,65 " fill="none" filter="url(#fermys1ns3xnd)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="710.6738">Administrator</text><ellipse cx="49.5" cy="723.75" fill="#FEFECE" filter="url(#fermys1ns3xnd)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,731.75 L49.5,758.75 M36.5,739.75 L62.5,739.75 M49.5,758.75 L36.5,773.75 M49.5,758.75 L62.5,773.75 " fill="none" filter="url(#fermys1ns3xnd)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="152" x="264.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="271.5" y="74.5332">:SpecifyNewVaccineUI</text><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="152" x="264.5" y="696.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="271.5" y="717.6738">:SpecifyNewVaccineUI</text><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="202" x="454.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="461.5" y="74.5332">:SpecifyNewVaccineController</text><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="202" x="454.5" y="696.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="461.5" y="717.6738">:SpecifyNewVaccineController</text><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="744.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="751.5" y="74.5332">:Company</text><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="744.5" y="696.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="751.5" y="717.6738">:Company</text><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="949.5" y="696.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="956.5" y="717.6738">v: Vaccine</text><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="579.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="198.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337.5" y="182.6641"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="267.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337.5" y="411.3828"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="137.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="552.5" y="213.0156"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="552.5" y="441.7344"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="76.9609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780.5" y="273.7188"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="207.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780.5" y="472.0859"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="785.5" y="540.4375"/><rect fill="#FFFFFF" filter="url(#fermys1ns3xnd)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="785.5" y="613.7891"/><polygon fill="#A80036" points="325.5,117.9609,335.5,121.9609,325.5,125.9609,329.5,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="331.5" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61.5" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="72.5" y="117.1045">starts specifying a new vaccine</text><polygon fill="#A80036" points="65.5,148.3125,55.5,152.3125,65.5,156.3125,61.5,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="341.5" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="71.5" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="82.5" y="147.4561">request data (name, brand)</text><polygon fill="#A80036" points="325.5,178.6641,335.5,182.6641,325.5,186.6641,329.5,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="331.5" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61.5" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="72.5" y="177.8076">inserts requested data</text><polygon fill="#A80036" points="540.5,209.0156,550.5,213.0156,540.5,217.0156,544.5,213.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="347.5" x2="546.5" y1="213.0156" y2="213.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="354.5" y="208.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="365.5" y="208.1592">create Vaccine (name, brand )</text><polygon fill="#A80036" points="540.5,239.3672,550.5,243.3672,540.5,247.3672,544.5,243.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="347.5" x2="546.5" y1="243.3672" y2="243.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="354.5" y="238.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="365.5" y="238.5107">createVaccine()</text><polygon fill="#A80036" points="768.5,269.7188,778.5,273.7188,768.5,277.7188,772.5,273.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="562.5" x2="774.5" y1="273.7188" y2="273.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="569.5" y="268.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="580.5" y="268.8623">v = createVaccine(name, brand )</text><polygon fill="#A80036" points="937.5,300.0703,947.5,304.0703,937.5,308.0703,941.5,304.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="790.5" x2="943.5" y1="304.0703" y2="304.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="797.5" y="299.2139">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="808.5" y="299.2139">create (name, brand )</text><rect fill="#FEFECE" filter="url(#fermys1ns3xnd)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="949.5" y="281.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="956.5" y="303.252">v: Vaccine</text><polygon fill="#A80036" points="773.5,346.6797,783.5,350.6797,773.5,354.6797,777.5,350.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="557.5" x2="779.5" y1="350.6797" y2="350.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="564.5" y="345.8232">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="575.5" y="345.8232">validateVaccine(v)</text><polygon fill="#A80036" points="65.5,377.0313,55.5,381.0313,65.5,385.0313,61.5,381.0313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="341.5" y1="381.0313" y2="381.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="71.5" y="376.1748">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="248" x="82.5" y="376.1748">shows the data and asks for a confirmation</text><polygon fill="#A80036" points="325.5,407.3828,335.5,411.3828,325.5,415.3828,329.5,411.3828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="331.5" y1="411.3828" y2="411.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="61.5" y="406.5264">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="79.5" y="406.5264">confirms the data</text><polygon fill="#A80036" points="540.5,437.7344,550.5,441.7344,540.5,445.7344,544.5,441.7344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="347.5" x2="546.5" y1="441.7344" y2="441.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="354.5" y="436.8779">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="372.5" y="436.8779">saveVaccine()</text><polygon fill="#A80036" points="768.5,468.0859,778.5,472.0859,768.5,476.0859,772.5,472.0859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="562.5" x2="774.5" y1="472.0859" y2="472.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="569.5" y="467.2295">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="587.5" y="467.2295">saveVaccine(v)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="795.5" x2="837.5" y1="532.4375" y2="532.4375"/><line style="stroke:#A80036;stroke-width:1.0;" x1="837.5" x2="837.5" y1="532.4375" y2="545.4375"/><line style="stroke:#A80036;stroke-width:1.0;" x1="796.5" x2="837.5" y1="545.4375" y2="545.4375"/><polygon fill="#A80036" points="806.5,541.4375,796.5,545.4375,806.5,549.4375,802.5,545.4375" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="802.5" y="527.5811">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="820.5" y="527.5811">validateVaccine(v)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="795.5" x2="837.5" y1="605.7891" y2="605.7891"/><line style="stroke:#A80036;stroke-width:1.0;" x1="837.5" x2="837.5" y1="605.7891" y2="618.7891"/><line style="stroke:#A80036;stroke-width:1.0;" x1="796.5" x2="837.5" y1="618.7891" y2="618.7891"/><polygon fill="#A80036" points="806.5,614.7891,796.5,618.7891,806.5,622.7891,802.5,618.7891" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="802.5" y="600.9326">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="820.5" y="600.9326">addVaccine(v)</text><polygon fill="#A80036" points="60.5,675.1406,50.5,679.1406,60.5,683.1406,56.5,679.1406" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="54.5" x2="341.5" y1="679.1406" y2="679.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="66.5" y="674.2842">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="84.5" y="674.2842">tell operation success</text><!--MD5=[b913e93970b7ef3ba548613ac20b3f90]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":SpecifyNewVaccineUI" as UI
+participant ":SpecifyNewVaccineController" as CTRL
+  participant ":Company" as COMP
+participant "v: Vaccine" as V
+
+activate ADM
+ADM -> UI : starts specifying a new vaccine
+activate UI
+UI - -> ADM: request data (name, brand)
+deactivate UI
+
+ADM -> UI: inserts requested data
+activate UI
+
+UI -> CTRL: create Vaccine (name, brand )
+activate CTRL
+UI -> CTRL: createVaccine()
+
+CTRL -> COMP: v = createVaccine(name, brand )
+activate COMP
+
+create V
+COMP - -> V: create (name, brand )
+
+CTRL -> COMP: validateVaccine(v)
+deactivate CTRL
+deactivate COMP
+
+UI - -> ADM: shows the data and asks for a confirmation
+deactivate UI
+ADM -> UI: confirms the data
+activate UI
+
+UI -> CTRL: saveVaccine()
+
+activate CTRL
+CTRL -> COMP: saveVaccine(v)
+activate COMP
+deactivate CTRL
+
+
+COMP -> COMP: validateVaccine(v)
+activate COMP
+deactivate COMP
+
+COMP -> COMP: addVaccine(v)
+activate COMP
+deactivate COMP
+
+
+UI - -> ADM: tell operation success
+deactivate UI
+deactivate COMP
+deactivate ADM
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Administrator" as ADM
+
+participant ":SpecifyNewVaccineUI" as UI
+participant ":SpecifyNewVaccineController" as CTRL
+  participant ":Company" as COMP
+participant "v: Vaccine" as V
+
+activate ADM
+ADM -> UI : starts specifying a new vaccine
+activate UI
+UI - -> ADM: request data (name, brand)
+deactivate UI
+
+ADM -> UI: inserts requested data
+activate UI
+
+UI -> CTRL: create Vaccine (name, brand )
+activate CTRL
+UI -> CTRL: createVaccine()
+
+CTRL -> COMP: v = createVaccine(name, brand )
+activate COMP
+
+create V
+COMP - -> V: create (name, brand )
+
+CTRL -> COMP: validateVaccine(v)
+deactivate CTRL
+deactivate COMP
+
+UI - -> ADM: shows the data and asks for a confirmation
+deactivate UI
+ADM -> UI: confirms the data
+activate UI
+
+UI -> CTRL: saveVaccine()
+
+activate CTRL
+CTRL -> COMP: saveVaccine(v)
+activate COMP
+deactivate CTRL
+
+
+COMP -> COMP: validateVaccine(v)
+activate COMP
+deactivate COMP
+
+COMP -> COMP: addVaccine(v)
+activate COMP
+deactivate COMP
+
+
+UI - -> ADM: tell operation success
+deactivate UI
+deactivate COMP
+deactivate ADM
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

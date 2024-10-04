@@ -1,0 +1,38 @@
+@startuml
+autonumber
+'hide footbox
+actor "SNS User" as user
+
+participant ":SMSNotificationController" as ctrl
+participant ":Company" as comp
+participant ":VaccineAdministrationStore" as vastore
+participant ":UserStore" as sustore
+participant ":SystemTimer" as timer
+
+
+activate user
+
+note over user: this process is automatic and happens every second
+
+activate comp
+comp -> sustore : getUserStore()
+activate sustore
+deactivate sustore
+comp -> timer : getSystemTimer()
+activate timer
+deactivate timer
+comp -> vastore : getVaccineAdministrationStore()
+activate vastore
+
+loop for each vaccineAdministration
+comp -> vastore : vaccineAdministration = get(i)
+deactivate vastore
+
+opt systemTimer == recoveryRoomExitTime
+comp -> ctrl : sendSMSNotification(phoneNumber)
+activate ctrl
+ctrl -> user : sends SMS notification
+deactivate ctrl
+end
+end
+@enduml

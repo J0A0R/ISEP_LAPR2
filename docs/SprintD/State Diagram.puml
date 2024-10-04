@@ -1,0 +1,21 @@
+
+
+@startuml
+
+hide empty description
+[*] --> UserRegistered: US03: SNS User registration
+UserRegistered --> VaccineScheduled: US01: Vaccine Administration Schedule
+VaccineScheduled --> UserArrival: US04: SNS User Arrival
+UserArrival --> WaitingRoom: US04: Puts SNS in the waiting room
+UserArrival --> UserArrival: US04: Verifies schedule date
+WaitingRoom --> WaitingRoom: US05: Gets list of users in the waiting room ordered by arrival
+WaitingRoom --> Vaccinated: US08: Vaccine administration to the SNS User
+Vaccinated --> Vaccinated: US08: Alerts SNS User recovery time has ended
+Vaccinated --> [*]: end
+
+
+@enduml
+
+
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+package Core{
+    package Controller{
+    }
+
+    package AgeGroup{
+    }
+
+    package Vaccines{
+    }
+
+
+    package Domain{
+        package Model{
+        }
+        package Shared{
+        }
+
+    }
+    package UI{
+        package GUI{}
+        package Console{}
+        package utils{}
+    }
+}
+@enduml

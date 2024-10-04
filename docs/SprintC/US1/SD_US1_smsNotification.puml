@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant " store:\nScheduleVaccineStore" as STORE
+participant "sv: ScheduleVaccine" as SV
+participant ":\nSMSNotification" as SMS
+
+activate STORE
+STORE -> STORE: checkSNSNumber
+activate STORE
+deactivate STORE
+
+
+create SV
+
+STORE --> SV: create(**ScheduleVaccineDto**)
+
+STORE -> SV: phoneNumber = getphoneNumber()
+activate SV
+deactivate SV
+
+STORE -> STORE: checkDuplicates(ScheduleVaccine)
+activate STORE
+deactivate STORE
+
+
+STORE -> STORE: validateSV(ScheduleVaccine)
+activate STORE
+deactivate STORE
+
+STORE -> STORE: addSV(ScheduleVaccine)
+activate STORE
+deactivate STORE
+
+STORE -> SMS: sendSMSNotification(name, vaccinationCenter, day, hour, address)
+activate STORE
+deactivate STORE
+activate SMS
+deactivate SMS
+
+
+note over STORE, SMS
+During Sprint B, the need arises to notify the vaccine appointment at US 1 by message.
+As such, responsibility must be assigned to a specific class specialized in this task.
+
+end note
+
+@enduml

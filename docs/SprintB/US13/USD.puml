@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+
+rectangle System {
+  usecase "Specify a new vaccine " as UC1
+  usecase "VaccineAdminitration " as UC2
+
+}
+
+:Administrator: as Admin
+
+Admin -- UC1
+UC1 -- UC2
+
+@enduml
